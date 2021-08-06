@@ -17,4 +17,3 @@ selenium-debug.log
 *.sln
 
 #production folder
-dist/
