@@ -1,0 +1,11 @@
+
+.project.bereavement {
+	.in-device-mockups.iPhone7.prototype.special-case {
+		&:after { background: none; }
+		transform: scale(1.5);
+		@media only screen and (max-height: 865px) { transform: scale(1.4); }
+		@media only screen and (max-height: 820px) { transform: scale(1.2); }
+		@media only screen and (max-height: 720px) { transform: scale(1); }
+		@media only screen and (max-height: 640px) { transform: scale(0.9); }	
+	}
+}

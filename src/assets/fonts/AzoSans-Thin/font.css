@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AzoSans-Thin';
+  src: url('AzoSans-Thin.eot');
+  src: url('AzoSans-Thin.woff2') format('woff2'),
+       url('AzoSans-Thin.woff') format('woff'),
+       url('AzoSans-Thin.ttf') format('truetype'),
+       url('AzoSans-Thin.svg#AzoSans-Thin') format('svg'),
+       url('AzoSans-Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

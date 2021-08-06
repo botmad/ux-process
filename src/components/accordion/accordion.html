@@ -1,0 +1,10 @@
+<dl class="accordion box" role="presentation">
+	<accordionItem
+		v-for="item in content"
+		:multiple="multiple"
+		:item="item"
+		:groupId="groupId"
+		:key="item.id"
+		:class="item.extraClasses">
+	</accordionItem>
+</dl>

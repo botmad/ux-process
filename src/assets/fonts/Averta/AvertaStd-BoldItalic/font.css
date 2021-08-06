@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AvertaStd-BoldItalic';
+  src: url('AvertaStd-BoldItalic.eot');
+  src: url('AvertaStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('AvertaStd-BoldItalic.svg#AvertaStd-BoldItalic') format('svg'),
+       url('AvertaStd-BoldItalic.ttf') format('truetype'),
+       url('AvertaStd-BoldItalic.woff') format('woff'),
+       url('AvertaStd-BoldItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

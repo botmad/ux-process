@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura&family=Montserrat:wght@700&family=Pirata+One&display=swap');
+
+#video-backgrounds {
+	position: relative;
+	height: 100%;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	background-color: #141519;
+
+	// __________________________
+    // Platform selection element
+
+    .platform-selection {
+    	position: absolute;
+    	z-index: 1;
+    	top:0;
+    	left:0;
+    	width: 100%;
+    	display: flex;
+    	justify-content: flex-start;
+    	padding: 1rem;
+    	z-index: 2;
+    	// transform: translateX(-70px);
+
+    	.platform-selection-list {
+    		display: flex;
+    		align-items: baseline;
+    		padding: .43rem .97rem .36rem;
+		    border-radius: .58rem;
+		    background: rgba(251,251,251,.91);
+		    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+		    animation: .5s cubic-bezier(.21,1.1,.05,1.14) 0s 1 slideInFromLeft;
+		    
+
+		    @keyframes slideInFromLeft {
+				0% {
+					transform: translateX(-50%);
+					opacity: 0;
+				}
+				100% {
+					transform: translateX(0);
+					opacity: 1;
+				}
+			}
+
+
+		    // transform: translateX(70px);
+		    // transition: transform .33s ease-in;
+
+		    .project-name {
+		    	color: rgba(0,0,0,.98);
+		    	margin:0 1rem 0 0;
+		    	font-size: 1rem;
+		    }
+
+	    	.tab {
+	    		position: relative;
+	    		display: inline-block;
+	    		color: rgba(0,0,0,.5);
+	        	transition: color .25s ease-out;
+	        	cursor: pointer;
+
+	        	margin: 0 .67rem;
+	        	&:first-child {
+	        		margin-left: 0;
+	        	}
+	        	&:last-child {
+	        		margin-right: 0;
+	        	}
+	        	
+	    		&:after {
+	    			content:"";
+	    			position: absolute;
+	    			left: 50%;
+	    			top: 1.4em;
+	    			height: 1px;
+	    			background-color: rgba(0,0,0,.95);
+
+	    			width:0;
+	    			transition:
+	    				left .15s ease-in,
+		    			width .15s ease-in;
+	    		}
+	    		&.selected,
+	        	&:hover {
+	        		color: rgba(0,0,0,.95);
+	        		transition: color 0s;
+
+	        		&:after {
+	        			left: 0;
+		    			width:100%;
+		    			transition: 
+		    				left .15s ease-out,
+		    				width .15s ease-out;
+		    		}
+	        	}
+
+	        	&.selected {
+	        		cursor: text;
+	        	}
+	    	}
+	    }
+    }
+
+	.browser-preview {
+		position: relative;
+		width: 100%;
+		max-width: 960px;
+		height: 100%;
+		max-height: 640px;
+		display: flex;
+		align-items:center;
+		justify-content: center;
+		overflow: hidden;
+		border-radius: 5px;
+		box-shadow: 0 13px 37px -10px rgba(0,0,0,.36);
+
+		.browser-bar-mockup {
+			position: absolute;
+			top:0;
+			left:0;
+			width: 100%;
+			height: 28px;
+			z-index: 1;
+		}
+
+		.video-background {
+			position: absolute;
+			object-fit: cover;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+		.hero-header {
+			position: relative;
+			width: 74%;
+			text-align: left;
+			z-index:1;
+		}
+	}
+
+	.browser-preview.metalghost {
+		.hero-header {
+		    font-size: 10em;
+		    line-height: 0.54em;
+		    font-family: Pirata One;
+		    font-weight: 400;
+		    font-style: normal;
+		    color: #ffffff;
+		    text-shadow: 0 0 0.66em #343b4e, 0 0 2em #c5d3fb7a, 1px 1px 0 black, -1px -1px 0 black;
+		    
+		}
+	}
+
+	.browser-preview.keneda {
+		.hero-header {
+		    color: #fff;
+		    font-size: 8vw;
+		    text-shadow: 0 0.1em 0.3em #0904135c;
+		    font-family: Impact !important;
+		    font-weight: 700;
+		    font-style: normal;
+		    text-transform: uppercase;
+		}
+	}
+
+	.browser-preview.wildstyle {
+		.hero-header {
+		    font-size: 180px;
+		    color: #0a0202;
+		    line-height: 137px;
+		    font-family: Montserrat;
+		    font-weight: 700;
+		    font-style: normal;
+		}
+	}
+
+	.browser-preview.alphacell {
+		.hero-header {
+		    font-size: 60px;
+		    font-family: Jura;
+		    font-weight: 400;
+		    font-style: normal;
+		    color: #fff;
+		}
+	}
+
+	.browser-preview.loader {
+		.hero-header {
+		    font-size: 60px;
+		    text-align: center;
+		    color: #fff;
+		}
+	}
+}
+
+// .hero.keneda {
+// 	position: relative;
+// 	width: 100%;
+// 	height: 40rem;
+// 	background: grey;
+
+// 	.video-background {
+// 		position: absolute;
+// 		object-fit: cover;
+// 		top: 0;
+// 		left: 0;
+// 		width: 100%;
+// 		height: 100%;
+// 	}
+
+// 	.hero-header {
+// 		position: relative;
+// 		width: 66%;
+// 	    color: #fff;
+// 	    font-size: 8vw;
+// 	    text-shadow: 0 0.1em 0.3em #0904135c;
+// 	    font-family: Impact !important;
+// 	    font-weight: 700;
+// 	    font-style: normal;
+// 	    text-transform: uppercase;
+// 	    z-index:1;
+// 	}
+	
+// }
+// .carousel-cell {
+// 	max-width: 1400px;
+// }
+// .hero.metalghost {
+// 	position: relative;
+// 	width: 100%;
+// 	height: 40rem;
+// 	display: flex;
+//     align-items: center;
+// 	background: grey;
+
+// 	.video-background {
+// 		position: absolute;
+// 		object-fit: cover;
+// 		top: 0;
+// 		left: 0;
+// 		width: 100%;
+// 		height: 100%;
+// 	}
+
+// 	.hero-header {
+// 		position: relative;
+// 		width: 66%;
+// 	    font-size: 10em;
+// 	    line-height: 0.44em;
+// 	    text-align: left;
+// 	    font-family: Pirata One;
+// 	    font-weight: 400;
+// 	    font-style: normal;
+// 	    text-shadow: 0 0 0.66em #343b4e, 0 0 2em #c5d3fb7a, 1px 1px 0 black, -1px -1px 0 black;
+// 	    z-index:1;
+// 	}
+	
+// }

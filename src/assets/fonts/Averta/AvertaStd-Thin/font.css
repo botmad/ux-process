@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AvertaStd-Thin';
+  src: url('AvertaStd-Thin.eot');
+  src: url('AvertaStd-Thin.eot?#iefix') format('embedded-opentype'),
+       url('AvertaStd-Thin.svg#AvertaStd-Thin') format('svg'),
+       url('AvertaStd-Thin.ttf') format('truetype'),
+       url('AvertaStd-Thin.woff') format('woff'),
+       url('AvertaStd-Thin.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

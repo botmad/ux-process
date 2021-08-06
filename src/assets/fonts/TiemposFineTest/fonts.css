@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'TiemposFine';
+  src: url('TiemposFine-Light/TiemposFine-Light.eot');
+  src: url('TiemposFine-Light/TiemposFine-Light.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-Light/TiemposFine-Light.svg#TiemposFine-Light') format('svg'),
+       url('TiemposFine-Light/TiemposFine-Light.ttf') format('truetype'),
+       url('TiemposFine-Light/TiemposFine-Light.woff') format('woff'),
+       url('TiemposFine-Light/TiemposFine-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TiemposFine';
+  src: url('TiemposFine-LightItalic/TiemposFine-LightItalic.eot');
+  src: url('TiemposFine-LightItalic/TiemposFine-LightItalic.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-LightItalic/TiemposFine-LightItalic.svg#TiemposFine-LightItalic') format('svg'),
+       url('TiemposFine-LightItalic/TiemposFine-LightItalic.ttf') format('truetype'),
+       url('TiemposFine-LightItalic/TiemposFine-LightItalic.woff') format('woff'),
+       url('TiemposFine-LightItalic/TiemposFine-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TiemposFine';
+  src: url('TiemposFine-Regular/TiemposFine-Regular.eot');
+  src: url('TiemposFine-Regular/TiemposFine-Regular.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-Regular/TiemposFine-Regular.svg#TiemposFine-Regular') format('svg'),
+       url('TiemposFine-Regular/TiemposFine-Regular.ttf') format('truetype'),
+       url('TiemposFine-Regular/TiemposFine-Regular.woff') format('woff'),
+       url('TiemposFine-Regular/TiemposFine-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TiemposFine';
+  src: url('TiemposFine-RegularItalic/TiemposFine-RegularItalic.eot');
+  src: url('TiemposFine-RegularItalic/TiemposFine-RegularItalic.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-RegularItalic/TiemposFine-RegularItalic.svg#TiemposFine-RegularItalic') format('svg'),
+       url('TiemposFine-RegularItalic/TiemposFine-RegularItalic.ttf') format('truetype'),
+       url('TiemposFine-RegularItalic/TiemposFine-RegularItalic.woff') format('woff'),
+       url('TiemposFine-RegularItalic/TiemposFine-RegularItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TiemposFine';
+  src: url('TiemposFine-Medium/TiemposFine-Medium.eot');
+  src: url('TiemposFine-Medium/TiemposFine-Medium.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-Medium/TiemposFine-Medium.svg#TiemposFine-Medium') format('svg'),
+       url('TiemposFine-Medium/TiemposFine-Medium.ttf') format('truetype'),
+       url('TiemposFine-Medium/TiemposFine-Medium.woff') format('woff'),
+       url('TiemposFine-Medium/TiemposFine-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TiemposFine';
+  src: url('TiemposFine-MediumItalic/TiemposFine-MediumItalic.eot');
+  src: url('TiemposFine-MediumItalic/TiemposFine-MediumItalic.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-MediumItalic/TiemposFine-MediumItalic.svg#TiemposFine-MediumItalic') format('svg'),
+       url('TiemposFine-MediumItalic/TiemposFine-MediumItalic.ttf') format('truetype'),
+       url('TiemposFine-MediumItalic/TiemposFine-MediumItalic.woff') format('woff'),
+       url('TiemposFine-MediumItalic/TiemposFine-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TiemposFine';
+  src: url('TiemposFine-Semibold/TiemposFine-Semibold.eot');
+  src: url('TiemposFine-Semibold/TiemposFine-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-Semibold/TiemposFine-Semibold.svg#TiemposFine-Semibold') format('svg'),
+       url('TiemposFine-Semibold/TiemposFine-Semibold.ttf') format('truetype'),
+       url('TiemposFine-Semibold/TiemposFine-Semibold.woff') format('woff'),
+       url('TiemposFine-Semibold/TiemposFine-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TiemposFine';
+  src: url('TiemposFine-SemiboldItalic/TiemposFine-SemiboldItalic.eot');
+  src: url('TiemposFine-SemiboldItalic/TiemposFine-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-SemiboldItalic/TiemposFine-SemiboldItalic.svg#TiemposFine-SemiboldItalic') format('svg'),
+       url('TiemposFine-SemiboldItalic/TiemposFine-SemiboldItalic.ttf') format('truetype'),
+       url('TiemposFine-SemiboldItalic/TiemposFine-SemiboldItalic.woff') format('woff'),
+       url('TiemposFine-SemiboldItalic/TiemposFine-SemiboldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TiemposFine';
+  src: url('TiemposFine-Bold/TiemposFine-Bold.eot');
+  src: url('TiemposFine-Bold/TiemposFine-Bold.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-Bold/TiemposFine-Bold.svg#TiemposFine-Bold') format('svg'),
+       url('TiemposFine-Bold/TiemposFine-Bold.ttf') format('truetype'),
+       url('TiemposFine-Bold/TiemposFine-Bold.woff') format('woff'),
+       url('TiemposFine-Bold/TiemposFine-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TiemposFine';
+  src: url('TiemposFine-BoldItalic/TiemposFine-BoldItalic.eot');
+  src: url('TiemposFine-BoldItalic/TiemposFine-BoldItalic.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-BoldItalic/TiemposFine-BoldItalic.svg#TiemposFine-BoldItalic') format('svg'),
+       url('TiemposFine-BoldItalic/TiemposFine-BoldItalic.ttf') format('truetype'),
+       url('TiemposFine-BoldItalic/TiemposFine-BoldItalic.woff') format('woff'),
+       url('TiemposFine-BoldItalic/TiemposFine-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'TiemposFine';
+  src: url('TiemposFine-Black/TiemposFine-Black.eot');
+  src: url('TiemposFine-Black/TiemposFine-Black.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-Black/TiemposFine-Black.svg#TiemposFine-Black') format('svg'),
+       url('TiemposFine-Black/TiemposFine-Black.ttf') format('truetype'),
+       url('TiemposFine-Black/TiemposFine-Black.woff') format('woff'),
+       url('TiemposFine-Black/TiemposFine-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TiemposFine';
+  src: url('TiemposFine-BlackItalic/TiemposFine-BlackItalic.eot');
+  src: url('TiemposFine-BlackItalic/TiemposFine-BlackItalic.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-BlackItalic/TiemposFine-BlackItalic.svg#TiemposFine-BlackItalic') format('svg'),
+       url('TiemposFine-BlackItalic/TiemposFine-BlackItalic.ttf') format('truetype'),
+       url('TiemposFine-BlackItalic/TiemposFine-BlackItalic.woff') format('woff'),
+       url('TiemposFine-BlackItalic/TiemposFine-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+}

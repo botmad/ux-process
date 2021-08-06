@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'TiemposFine-Black';
+  src: url('TiemposFine-Black.eot');
+  src: url('TiemposFine-Black.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-Black.svg#TiemposFine-Black') format('svg'),
+       url('TiemposFine-Black.ttf') format('truetype'),
+       url('TiemposFine-Black.woff') format('woff'),
+       url('TiemposFine-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

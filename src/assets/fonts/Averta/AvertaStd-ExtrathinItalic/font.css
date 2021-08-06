@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AvertaStd-ExtrathinItalic';
+  src: url('AvertaStd-ExtrathinItalic.eot');
+  src: url('AvertaStd-ExtrathinItalic.eot?#iefix') format('embedded-opentype'),
+       url('AvertaStd-ExtrathinItalic.svg#AvertaStd-ExtrathinItalic') format('svg'),
+       url('AvertaStd-ExtrathinItalic.ttf') format('truetype'),
+       url('AvertaStd-ExtrathinItalic.woff') format('woff'),
+       url('AvertaStd-ExtrathinItalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

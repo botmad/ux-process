@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'GTSuper';
+  src: url('GT-Super-Display-Super.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GTSuper';
+  src: url('GT-Super-Display-Super-Italic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+}

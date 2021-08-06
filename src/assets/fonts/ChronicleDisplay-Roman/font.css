@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ChronicleDisplay-Roman';
+  src: url('ChronicleDisplay-Roman.eot');
+  src: url('ChronicleDisplay-Roman.woff2') format('woff2'),
+       url('ChronicleDisplay-Roman.woff') format('woff'),
+       url('ChronicleDisplay-Roman.ttf') format('truetype'),
+       url('ChronicleDisplay-Roman.svg#ChronicleDisplay-Roman') format('svg'),
+       url('ChronicleDisplay-Roman.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

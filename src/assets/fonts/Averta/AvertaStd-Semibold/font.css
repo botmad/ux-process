@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AvertaStd-Semibold';
+  src: url('AvertaStd-Semibold.eot');
+  src: url('AvertaStd-Semibold.eot?#iefix') format('embedded-opentype'),
+       url('AvertaStd-Semibold.svg#AvertaStd-Semibold') format('svg'),
+       url('AvertaStd-Semibold.ttf') format('truetype'),
+       url('AvertaStd-Semibold.woff') format('woff'),
+       url('AvertaStd-Semibold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

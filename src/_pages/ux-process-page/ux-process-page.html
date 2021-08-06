@@ -1,0 +1,125 @@
+<div id="process-page">
+
+	<div class="page-layout-top">
+		<div class="center-vertically">
+			<ul class="process-filters tab-control">
+	            <li class="tab"
+	            :class="{ selected: selectedProductType == 1 }"
+	            @click="selectedProductType = 1; showProcessesForDesigningANewPlatform()">
+	        		New Product
+	        	</li>
+	            <li class="tab"
+	            :class="{ selected: selectedProductType == 2 }"
+	            @click="selectedProductType = 2; showProcessesForExpandingAnExistingPlatform()">
+	        		Established Product
+	        	</li>
+	            <li class="tab"
+	            :class="{ selected: selectedProductType == 3 }"
+	            @click="selectedProductType = 3; showAll()">
+	        		Show All
+	        	</li>
+	        </ul>
+	    </div>
+	</div>
+
+	<div class="process-section discovery">
+
+		<div class="section-title">
+			<h6>{{discoverySection.title}}</h6>
+		</div>
+		<div class="section-description" v-html="discoverySection.description">	
+		</div>
+		<div class="sub-sections">
+		    <section class="section">
+				<accordion
+				id="accordion-1"
+				:content="discoverySubSections"
+				:extraClasses="discoverySection.extraClasses"></accordion>
+		    </section>
+		    <!-- <section class="section">
+				<accordion id="accordion-example-2" :content="example2" multiple="multiple"></accordion>
+		    </section> -->
+		</div>
+	</div>
+
+	<div class="process-section research">
+		<div class="section-title">
+			<h6>{{researchSection.title}}</h6>
+		</div>
+		<div class="section-description" v-html="researchSection.description">	
+		</div>
+		<div class="sub-sections">
+		    <section class="section">
+				<accordion
+				id="accordion-2"
+				:content="researchSubSections"
+				:extraClasses="discoverySection.extraClasses"></accordion>
+		    </section>
+		</div>
+	</div>
+
+	<div class="process-section ideation">
+		<div class="section-title">
+			<h6>{{ideationSection.title}}</h6>
+		</div>
+		<div class="section-description" v-html="ideationSection.description">	
+		</div>
+		<div class="sub-sections">
+		    <section class="section">
+				<accordion
+				id="accordion-2"
+				:content="ideationSubSections"
+				:extraClasses="discoverySection.extraClasses"></accordion>
+		    </section>
+		</div>
+	</div>
+
+	<div class="process-section definition">
+		<div class="section-title">
+			<h6>{{definitionSection.title}}</h6>
+		</div>
+		<div class="section-description" v-html="definitionSection.description">	
+		</div>
+		<div class="sub-sections">
+		    <section class="section">
+				<accordion
+				id="accordion-2"
+				:content="definitionSubSections"
+				:extraClasses="discoverySection.extraClasses"></accordion>
+		    </section>
+		</div>
+	</div>
+
+	<div class="process-section execution">
+		<div class="section-title">
+			<h6>{{executionSection.title}}</h6>
+		</div>
+		<div class="section-description" v-html="executionSection.description">	
+		</div>
+		<div class="sub-sections">
+		    <section class="section">
+				<accordion
+				id="accordion-2"
+				:content="executionSubSections"
+				:extraClasses="discoverySection.extraClasses"></accordion>
+		    </section>
+		</div>
+	</div>
+
+	<div class="process-section delivery">
+		<div class="section-title">
+			<h6>{{deliverySection.title}}</h6>
+		</div>
+		<div class="section-description" v-html="deliverySection.description">	
+		</div>
+		<div class="sub-sections">
+		    <section class="section">
+				<accordion
+				id="accordion-2"
+				:content="deliverySubSections"
+				:extraClasses="discoverySection.extraClasses"></accordion>
+		    </section>
+		</div>
+	</div>
+
+</div>

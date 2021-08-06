@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'TiemposFine-Light';
+  src: url('TiemposFine-Light.eot');
+  src: url('TiemposFine-Light.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-Light.svg#TiemposFine-Light') format('svg'),
+       url('TiemposFine-Light.ttf') format('truetype'),
+       url('TiemposFine-Light.woff') format('woff'),
+       url('TiemposFine-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'NocturneSerif-SemiBolditalic';
+  src: url('NocturneSerif-SemiBolditalic.eot');
+  src: url('NocturneSerif-SemiBolditalic.eot?#iefix') format('embedded-opentype'),
+       url('NocturneSerif-SemiBolditalic.svg#NocturneSerif-SemiBolditalic') format('svg'),
+       url('NocturneSerif-SemiBolditalic.ttf') format('truetype'),
+       url('NocturneSerif-SemiBolditalic.woff') format('woff'),
+       url('NocturneSerif-SemiBolditalic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

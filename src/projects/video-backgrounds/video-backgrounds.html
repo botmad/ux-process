@@ -1,0 +1,128 @@
+<div id="video-backgrounds">
+	
+	<!-- <div class="carousel-cell">
+		<div class="hero keneda">
+
+			<h2 class="hero-header">Keneda</h2>
+			<video
+			class="video-background"
+			preload="auto"
+			autoplay="true"
+			loop="loop"
+			muted="muted"
+			volume="0"
+			poster="sites/default/files/videos/hero-video-background.jpg">
+				<source src="https://palmaka.design/folio-db/projects/video-backgrounds/video/Comp-1_7.mp4" type="video/mp4">
+				Sorry, your browser does not support .mp4 video.
+			</video>
+		</div>
+	</div> -->
+
+	<div class="platform-selection">
+		<ul class="platform-selection-list">
+			<h5 class="project-name">Video Backgrounds</h5>
+			<li
+			class="tab"
+			:class="{ selected: selectedBackground == 0 }"
+			@click="selectedBackground = 0">Metal Ghost Solid</li>
+			<li
+			class="tab"
+			:class="{ selected: selectedBackground == 1 }"
+			@click="selectedBackground = 1">Keneda</li>
+			<li
+			class="tab"
+			:class="{ selected: selectedBackground == 2 }"
+			@click="selectedBackground = 2">Wild Style</li>
+			<li
+			class="tab"
+			:class="{ selected: selectedBackground == 3 }"
+			@click="selectedBackground = 3">Alpha-cell Systems</li>
+			<li
+			class="tab"
+			:class="{ selected: selectedBackground == 4 }"
+			@click="selectedBackground = 4">Loading Indicator</li>
+		</ul>
+	</div>
+
+	<div v-show="selectedBackground == 0" class="browser-preview metalghost">
+		<webBrowserBar></webBrowserBar>
+		<p class="hero-header">Metal<br>Ghost<br>Solid</p>
+		<video
+		v-if="selectedBackground == 0"
+		class="video-background"
+		preload="auto"
+		autoplay="true"
+		loop="loop"
+		muted="muted"
+		volume="0">
+			<source src="https://palmaka.design/folio-db/projects/video-backgrounds/video/ghostomenB.mp4" type="video/mp4">
+			Sorry, your browser does not support .mp4 video.
+		</video>
+	</div>
+
+	<div v-show="selectedBackground == 1" class="browser-preview keneda">
+		<webBrowserBar></webBrowserBar>
+		<p class="hero-header">Keneda</p>
+		<video
+		v-if="selectedBackground == 1"
+		class="video-background"
+		preload="auto"
+		autoplay="true"
+		loop="loop"
+		muted="muted"
+		volume="0">
+			<source src="https://palmaka.design/folio-db/projects/video-backgrounds/video/Comp-1_7.mp4" type="video/mp4">
+			Sorry, your browser does not support .mp4 video.
+		</video>
+	</div>
+
+	<div v-show="selectedBackground == 2" class="browser-preview wildstyle">
+		<webBrowserBar></webBrowserBar>
+		<p class="hero-header">Wild Style</p>
+		<video
+		v-if="selectedBackground == 2"
+		class="video-background"
+		preload="auto"
+		autoplay="true"
+		loop="loop"
+		muted="muted"
+		volume="0">
+			<source src="https://palmaka.design/folio-db/projects/video-backgrounds/video/Comp-2_5.mp4" type="video/mp4">
+			Sorry, your browser does not support .mp4 video.
+		</video>
+	</div>
+
+	<div v-show="selectedBackground == 3" class="browser-preview alphacell">
+		<webBrowserBar></webBrowserBar>
+		<p class="hero-header">Alpha-cell Systems</p>
+		<video
+		v-if="selectedBackground == 3"
+		class="video-background"
+		preload="auto"
+		autoplay="true"
+		loop="loop"
+		muted="muted"
+		volume="0">
+			<source src="https://palmaka.design/folio-db/projects/video-backgrounds/video/plexiwrap3.mp4" type="video/mp4">
+			Sorry, your browser does not support .mp4 video.
+		</video>
+	</div>
+
+	<div v-show="selectedBackground == 4" class="browser-preview loader">
+		<webBrowserBar></webBrowserBar>
+		<p class="hero-header">Loading...</p>
+		<video
+		v-if="selectedBackground == 4"
+		class="video-background"
+		preload="auto"
+		autoplay="true"
+		loop="loop"
+		muted="muted"
+		volume="0">
+			<source src="https://palmaka.design/folio-db/projects/video-backgrounds/video/loading_loop_on_black_2.mp4" type="video/mp4">
+			Sorry, your browser does not support .mp4 video.
+		</video>
+	</div>
+
+</div>
+  

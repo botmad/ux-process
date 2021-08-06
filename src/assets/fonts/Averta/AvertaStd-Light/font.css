@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AvertaStd-Light';
+  src: url('AvertaStd-Light.eot');
+  src: url('AvertaStd-Light.eot?#iefix') format('embedded-opentype'),
+       url('AvertaStd-Light.svg#AvertaStd-Light') format('svg'),
+       url('AvertaStd-Light.ttf') format('truetype'),
+       url('AvertaStd-Light.woff') format('woff'),
+       url('AvertaStd-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

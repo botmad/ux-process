@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AzoSans-Light';
+  src: url('AzoSans-Light.eot');
+  src: url('AzoSans-Light.woff2') format('woff2'),
+       url('AzoSans-Light.woff') format('woff'),
+       url('AzoSans-Light.ttf') format('truetype'),
+       url('AzoSans-Light.svg#AzoSans-Light') format('svg'),
+       url('AzoSans-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

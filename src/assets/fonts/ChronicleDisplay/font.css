@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'ChronicleDisplay';
+  src: url('ChronicleDisplay-Roman.eot');
+  src: url('ChronicleDisplay-Roman.woff2') format('woff2'),
+       url('ChronicleDisplay-Roman.woff') format('woff'),
+       url('ChronicleDisplay-Roman.ttf') format('truetype'),
+       url('ChronicleDisplay-Roman.svg#ChronicleDisplay-Roman') format('svg'),
+       url('ChronicleDisplay-Roman.eot?#iefix') format('embedded-opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ChronicleDisplay';
+  src: url('ChronicleDisplay-Italic.eot');
+  src: url('ChronicleDisplay-Italic.woff2') format('woff2'),
+       url('ChronicleDisplay-Italic.woff') format('woff'),
+       url('ChronicleDisplay-Italic.ttf') format('truetype'),
+       url('ChronicleDisplay-Italic.svg#ChronicleDisplay-Italic') format('svg'),
+       url('ChronicleDisplay-Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'ChronicleDisplay';
+  src: url('ChronicleDisplay-Semi.eot');
+  src: url('ChronicleDisplay-Semi.woff2') format('woff2'),
+       url('ChronicleDisplay-Semi.woff') format('woff'),
+       url('ChronicleDisplay-Semi.ttf') format('truetype'),
+       url('ChronicleDisplay-Semi.svg#ChronicleDisplay-Semi') format('svg'),
+       url('ChronicleDisplay-Semi.eot?#iefix') format('embedded-opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ChronicleDisplay';
+  src: url('ChronicleDisplay-Bold.eot');
+  src: url('ChronicleDisplay-Bold.woff2') format('woff2'),
+       url('ChronicleDisplay-Bold.woff') format('woff'),
+       url('ChronicleDisplay-Bold.ttf') format('truetype'),
+       url('ChronicleDisplay-Bold.svg#ChronicleDisplay-Bold') format('svg'),
+       url('ChronicleDisplay-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ChronicleDisplay';
+  src: url('ChronicleDisplay-Black.eot');
+  src: url('ChronicleDisplay-Black.woff2') format('woff2'),
+       url('ChronicleDisplay-Black.woff') format('woff'),
+       url('ChronicleDisplay-Black.ttf') format('truetype'),
+       url('ChronicleDisplay-Black.svg#ChronicleDisplay-Black') format('svg'),
+       url('ChronicleDisplay-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: 900;
+  font-style: normal;
+}

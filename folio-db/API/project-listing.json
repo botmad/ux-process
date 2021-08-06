@@ -1,0 +1,413 @@
+[
+  {
+    "id": 0,
+    "name": "Breathe",
+    "incogintoName": "Cardiac coherence app",
+    "date": "Aug 2021",
+    "bgColor": "#010109",
+    "previewImage": "https://palmaka.design/folio-db/projects/breathe/thumb@2x.jpg",
+    "platform": "Cross-platform (Flutter)",
+    "industry": "UX Design",
+    "rating": 5.5,
+    "color": "#b7b583",
+    "slogan": "best-of-breed initiatives",
+    "logo": "#logo1",
+    "keywords": [
+      "Health",
+      "Customer-facing",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Royal College of Surgeons of Edinburgh",
+    "incogintoName": "Association of surgeons",
+    "date": "May 2020",
+    "bgColor": "#29a3ae",
+    "previewImage": "https://palmaka.design/folio-db/projects/rcsed/thumb@2x.jpg",
+    "platform": "Cross-platform (Flutter)",
+    "industry": "UX Design",
+    "rating": 8.6,
+    "color": "#50afb1",
+    "slogan": "bricks-and-clicks e-tailers",
+    "logo": "#logo2",
+    "keywords": [
+      "Health",
+      "Customer-facing",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Sibcas",
+    "incogintoName": "Portacabin managment app",
+    "date": "Apr 2019",
+    "bgColor": "#ff8f00",
+    "previewImage": "https://palmaka.design/folio-db/projects/sibcas/thumb@2x.jpg",
+    "platform": "Android",
+    "industry": "UX Design",
+    "rating": 9,
+    "color": "#5a8285",
+    "slogan": "vertical e-services",
+    "logo": "#logo3",
+    "keywords": [
+      "Logistics",
+      "Enterprise",
+      "Android"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Alchemist Conjurer",
+    "incogintoName": "Cocktail-bar app loyalty scheeme",
+    "date": "Dec 2018",
+    "bgColor": "#000000",
+    "previewImage": "https://palmaka.design/folio-db/projects/alchemist/thumb@2x.jpg",
+    "platform": "iOS",
+    "industry": "Motion Design",
+    "rating": 7.2,
+    "color": "#6e7039",
+    "slogan": "synergized web-readiness",
+    "logo": "#logo6",
+    "keywords": [
+      "Hospitality",
+      "Customer-facing",
+      "Cross-platform",
+      "AR",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Animated Backgrounds",
+    "incogintoName": "Animated Backgrounds",
+    "date": "Dec 2018",
+    "bgColor": "#111111",
+    "previewImage": "https://palmaka.design/folio-db/projects/video-backgrounds/thumb@2x.jpg",
+    "platform": "iOS",
+    "industry": "Motion Design",
+    "rating": 9.3,
+    "color": "#227f05",
+    "slogan": "visionary interfaces",
+    "logo": "#logo7",
+    "keywords": [
+      "Artwork",
+      "Web"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Menzies Aviation",
+    "incogintoName": "Aviation auditing app",
+    "date": "Aug 2018",
+    "bgColor": "#0090de",
+    "previewImage": "https://palmaka.design/folio-db/projects/menzies-smart/thumb@2x.jpg",
+    "platform": "iOS",
+    "industry": "UX Design",
+    "rating": 6,
+    "color": "#068e82",
+    "slogan": "open-source partnerships",
+    "logo": "#logo23",
+    "keywords": [
+      "Aviation",
+      "Health & Safety",
+      "Auditioning",
+      "Enterprise",
+      "iOS"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Argus Dashboard",
+    "incogintoName": "Transaction monitoring app",
+    "date": "Apr 2018",
+    "bgColor": "#50d1c2",
+    "previewImage": "https://palmaka.design/folio-db/projects/argus/thumb@2x.jpg",
+    "platform": "iOS",
+    "industry": "UX Design",
+    "rating": 9.1,
+    "color": "#d98054",
+    "slogan": "deployment channels",
+    "logo": "#logo8",
+    "keywords": [
+      "Finance",
+      "Enterprise",
+      "iOS"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "MI Research",
+    "incogintoName": "Medical research managment",
+    "date": "Nov 2017",
+    "bgColor": "#17afd4",
+    "previewImage": "https://palmaka.design/folio-db/projects/miresearch/thumb@2x.jpg",
+    "platform": "Web",
+    "industry": "UX Design",
+    "rating": 8.4,
+    "color": "#339b94",
+    "slogan": "engineering B2B",
+    "logo": "#logo9",
+    "keywords": [
+      "Health",
+      "Enterprise",
+      "Web"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "DoSo",
+    "incogintoName": "Automated saving & investing app",
+    "date": "May 2017",
+    "bgColor": "#45bc62",
+    "previewImage": "https://palmaka.design/folio-db/projects/doso/thumb@2x.jpg",
+    "platform": "iOS",
+    "industry": "Concept Exploration",
+    "rating": 4.9,
+    "color": "#9bd0d3",
+    "slogan": "cross-platform e-services",
+    "logo": "#logo10",
+    "keywords": [
+      "Finance",
+      "Customer-facing",
+      "iOS"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "IRT",
+    "incogintoName": "Housing energy rating managment",
+    "date": "Apr 2017",
+    "bgColor": "#4286f5",
+    "previewImage": "https://palmaka.design/folio-db/projects/irt/thumb@2x.jpg",
+    "platform": "Web",
+    "industry": "UX Design",
+    "rating": 9.4,
+    "color": "#64c272",
+    "slogan": "bleeding-edge synergies",
+    "logo": "#logo12",
+    "keywords": [
+      "Energy",
+      "Auditioning",
+      "Enterprise",
+      "Web"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "ESPC",
+    "incogintoName": "Property market app",
+    "date": "May 2017",
+    "bgColor": "#0293e8",
+    "previewImage": "https://palmaka.design/folio-db/projects/espc/thumb@2x.jpg",
+    "platform": "iOS / Android",
+    "industry": "UX Design",
+    "rating": 5.1,
+    "color": "#e8a25d",
+    "slogan": "B2C deliverables",
+    "logo": "#logo14",
+    "keywords": [
+      "Property",
+      "Customer-facing",
+      "IoT",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Hoxton",
+    "incogintoName": "Innovative hotel app",
+    "date": "Mar 2017",
+    "bgColor": "#405765",
+    "previewImage": "https://palmaka.design/folio-db/projects/hoxton/thumb@2x.jpg",
+    "platform": "iOS",
+    "industry": "Concept Exploration",
+    "rating": 5,
+    "color": "#f7ce1b",
+    "slogan": "redefine web-readiness",
+    "logo": "#logo15",
+    "keywords": [
+      "Hospitality",
+      "Customer-facing",
+      "iOS"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "NHS Bereavement",
+    "incogintoName": "Respectfully informing bereaved families",
+    "date": "Mar 2017",
+    "bgColor": "#20222e",
+    "previewImage": "https://palmaka.design/folio-db/projects/nhs-bereavement/thumb@2x.jpg",
+    "platform": "iOS",
+    "industry": "UX Design",
+    "rating": 8.9,
+    "color": "#5d8669",
+    "slogan": "real-time metrics",
+    "logo": "#logo16",
+    "keywords": [
+      "Health",
+      "Customer-facing",
+      "iOS"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Be Avalanche Aware",
+    "incogintoName": "Avalanche awarness and reporting app",
+    "date": "Feb 2017",
+    "bgColor": "#0d3a6f",
+    "previewImage": "https://palmaka.design/folio-db/projects/baa/thumb@2x.jpg",
+    "platform": "iOS / Android",
+    "industry": "UX Design",
+    "rating": 7.2,
+    "color": "#a6ed56",
+    "slogan": "network architects",
+    "logo": "#logo17",
+    "keywords": [
+      "Health & Safety",
+      "Customer-facing",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "NHS Regional Stats",
+    "incogintoName": "health data by region",
+    "date": "Dec 2017",
+    "bgColor": "#120c13",
+    "previewImage": "https://palmaka.design/folio-db/projects/nhs-reg-stats/thumb@2x.jpg",
+    "platform": "iOS",
+    "industry": "Concept Exploration",
+    "rating": 8.1,
+    "color": "#22a4df",
+    "slogan": "world-class platforms",
+    "logo": "#logo18",
+    "keywords": [
+      "Health",
+      "Enterprise",
+      "iOS"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Furni",
+    "incogintoName": "Innovative furniture shopping",
+    "date": "Nov 2016",
+    "bgColor": "#d25b2f",
+    "previewImage": "https://palmaka.design/folio-db/projects/furni/thumb@2x.jpg",
+    "platform": "iOS",
+    "industry": "Concept Exploration",
+    "rating": 8.2,
+    "color": "#538424",
+    "slogan": "web-scale technologies",
+    "logo": "#logo19",
+    "keywords": [
+    "Customer-facing",
+    "AR",
+      "iOS"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "WHO European health statistics",
+    "incogintoName": "The international report from the collaborative study",
+    "date": "Aug 2016",
+    "bgColor": "#163a75",
+    "previewImage": "https://palmaka.design/folio-db/projects/who/thumb@2x.jpg",
+    "platform": "iOS / Android",
+    "industry": "UX Design",
+    "rating": 4.3,
+    "color": "#40698e",
+    "slogan": "customized dataviz",
+    "logo": "#logo20",
+    "keywords": [
+      "Health",
+      "Customer-facing",
+      "Enterprise",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Clemmie",
+    "incogintoName": "Cloud-hosting stats",
+    "date": "Jun 2016",
+    "bgColor": "#171516",
+    "previewImage": "https://palmaka.design/folio-db/projects/clemmie/thumb@2x.jpg",
+    "platform": "iOS / Android",
+    "industry": "UX Design",
+    "rating": 7.2,
+    "color": "#6e8386",
+    "slogan": "optimized bandwidth",
+    "logo": "#logo21",
+    "keywords": [
+      "Enterprise",
+      "Cross-platform",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Ballachulish Quarry Stories",
+    "incogintoName": "Local attraction guide",
+    "date": "Mar 2016",
+    "bgColor": "#141414",
+    "previewImage": "https://palmaka.design/folio-db/projects/bsq/thumb@2x.jpg",
+    "platform": "Cross-platform (Xamarin)",
+    "industry": "UX Design",
+    "rating": 6.9,
+    "color": "#f29c72",
+    "slogan": "rich e-business metrics",
+    "logo": "#logo22",
+    "keywords": [
+      "Customer-facing",
+      "Cross-platform",
+      "iOS",
+      "Android"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Learning Journals",
+    "incogintoName": "Observations of children\"s significant learning",
+    "date": "Feb 2016",
+    "bgColor": "#66b1d1",
+    "previewImage": "https://palmaka.design/folio-db/projects/lj/thumb@2x.jpg",
+    "platform": "iOS",
+    "industry": "UX Design",
+    "rating": 8.6,
+    "color": "#f3c182",
+    "slogan": "24/7 methodologies",
+    "logo": "#logo47",
+    "keywords": [
+      "Customer-facing",
+      "iOS"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Brochure Webdesign",
+    "incogintoName": "Observations of children\"s significant learning",
+    "date": "2014 - 2016",
+    "bgColor": "#0a0e17",
+    "previewImage": "https://palmaka.design/folio-db/projects/webdesign/thumb@2x.jpg",
+    "platform": "Web",
+    "industry": "Web Design",
+    "rating": 4.6,
+    "color": "#2c2e31",
+    "slogan": "clicks-and-mortar e-business",
+    "logo": "#logo24",
+    "keywords": [
+      "Customer-facing",
+      "Web"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'TiemposFine-Medium';
+  src: url('TiemposFine-Medium.eot');
+  src: url('TiemposFine-Medium.eot?#iefix') format('embedded-opentype'),
+       url('TiemposFine-Medium.svg#TiemposFine-Medium') format('svg'),
+       url('TiemposFine-Medium.ttf') format('truetype'),
+       url('TiemposFine-Medium.woff') format('woff'),
+       url('TiemposFine-Medium.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+

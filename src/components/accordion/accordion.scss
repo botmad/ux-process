@@ -1,0 +1,25 @@
+.accordion {
+  padding: 0;
+  margin-bottom: var(--body-baseline);
+  
+  div:not(:last-child) {
+    // border-bottom: 1px solid var(--divider-soft-color);
+  }
+  
+  div:last-child .accordion-item-details {
+    border-radius: 5px;
+  }
+  
+  dd {
+    margin-left: 0;
+    margin-left: var(--gutter);
+  }
+
+  // // _____________________
+  // // hover over .accordion
+  // &:hover {
+  //   div:not(:last-child) {
+  //     border-bottom: 1px solid var(--divider-strong-color);
+  //   }
+  // }
+}

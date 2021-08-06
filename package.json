@@ -1,0 +1,48 @@
+{
+  "name": "beyond-panel-vuex",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "botmad <botmad@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "flickity-as-nav-for": "^2.0.1",
+    "flickity-fade": "^1.0.0",
+    "js-yaml": "^3.13.1",
+    "minimist": "^1.2.5",
+    "vue": "^2.4.4",
+    "vue-flickity": "^1.1.2",
+    "vue-pdf": "^4.1.0",
+    "vue-rellax": "^0.1.0",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "copy-webpack-plugin": "^6.1.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^6.0.6",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.0",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.6",
+    "webpack-bundle-analyzer": "^3.6.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

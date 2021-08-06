@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AzoSans-Bold';
+  src: url('AzoSans-Bold.eot');
+  src: url('AzoSans-Bold.woff2') format('woff2'),
+       url('AzoSans-Bold.woff') format('woff'),
+       url('AzoSans-Bold.ttf') format('truetype'),
+       url('AzoSans-Bold.svg#AzoSans-Bold') format('svg'),
+       url('AzoSans-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

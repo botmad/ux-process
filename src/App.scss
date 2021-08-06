@@ -1,0 +1,190 @@
+
+// ---------------------------
+
+// @import "../fonts/ChronicleDisplay/font.css";
+// @import "assets/fonts/Inter-UI/inter-ui.css";
+// @import "assets/fonts/Hasklig-Regular/stylesheet.css";
+// @import "assets/fonts/TiemposFineTest/fonts.css";
+@import "assets/fonts/Averta/fonts.css";
+// @import "assets/fonts/GTSuper-Test/font.css";
+// @import "../fonts/Nocturne/fonts.css";
+// @import "../fonts/BelyDisplay/BelyDisplayW00-Regular/font.css";
+body {
+
+   --body-baseline: calc(var(--body-font-size) * var(--body-line-height));
+
+   --outer-gutter-col: calc(var(--outer-gutter) - var(--gutter));
+   --page-grid-columns: var(--outer-gutter-col) repeat(12, 1fr) var(--outer-gutter-col);
+   --row-height: 64px;
+   --body-layout-top-gap: 24vh;
+
+   --surface-2: linear-gradient(-53deg, #FF5722 0, #FF9800 100%);
+   --surface-3: linear-gradient(-53deg, #9C27B0 0, #3F51B5 100%);
+
+   --shadow-1: 0 2px 6px 0 rgba(0,0,0,0.04), 0 1px 2px 0 rgba(0,0,0,0.04), 0 1px 2px 0 rgba(0,0,0,0.18), inset 0 -1px 0 0 rgba(225,225,225,0.50);
+   --shadow-2: 0 1px 2px 0 rgba(0,0,0,0.05), 0 1px 4px 0 rgba(0,0,0,0.13);
+   --shadow-3: 0 0 1px 0 rgba(27,34,56,0.24), 0 3px 5px 0 rgba(24,26,33,0.09);
+   --shadow-4: 0 1px 0 0 rgba(27,34,56,0.06), 0 3px 6px 0 rgba(24,26,33,0.06), 0 12px 24px 0 rgba(0,0,0,0.09);
+   --shadow-5: 0 10px 10px 0 rgba(0,0,0,0.11), 0 2px 6px 0 rgba(0,0,0,0.11);
+   --shadow-6: 0 16px 24px 0 rgba(0,0,0,0.09), 0 6px 30px 0 rgba(0,0,0,0.07), 0 8px 10px 0 rgba(0,0,0,0.10);
+   --shadow-7: 0 0 12px 0 rgba(0,0,0,.1), 0 10px 30px 0 rgba(0,0,0,.2);
+   --shadow-8: 30px 30px 60px 0 rgba(35,38,46,.1);
+
+   // font-family: 'Inter UI';
+   font-family: 'Averta';
+   color: var(--body-color);
+}
+body, p, ul, ol, li, button, select, input {
+   
+}
+b, strong, .bold {
+   font-weight: 700;
+} 
+a {
+   text-decoration: none;
+}
+li {
+   list-style-type: none;
+}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+   color: var(--headings-color);
+}
+h1, .h1, h2, .h2, h3, .h3, blockquote {
+   // font-family: 'GTSuper';
+}
+h3, .h3, h4, .h4 {
+   font-family: 'Averta';
+}
+code {
+  // font-family: 'Hasklig-Regular' !important;
+
+}
+
+p, ul, ol, select, input, blockquote {
+   margin-bottom: var(--body-baseline);
+}
+
+
+// _____
+// Lists
+
+.about-content,
+#markdown-parser {
+   ul li, ol li {
+      position: relative;
+      margin-left: 2rem;
+
+      &:before {
+         content: '•';
+         position: absolute;
+         left: -1rem;
+      }
+   }
+}
+
+// ___________
+// Tab control
+
+.tab-control {
+   .tab {
+      position: relative;
+      display: inline-block;
+      color: var(--body-txt-color-disabled);
+      transition: color .25s ease-out;
+      cursor: pointer;
+
+      margin: 0 .67rem;
+      &:first-child {
+         margin-left: 0;
+      }
+      &:last-child {
+         margin-right: 0;
+      }
+      
+      &:after {
+         content:"";
+         position: absolute;
+         left: 50%;
+         top: 1.4em;
+         height: 1px;
+         background-color: var(--body-txt-color);
+
+         width:0;
+         transition:
+            left .15s ease-in,
+            width .15s ease-in;
+      }
+      &.selected,
+      &:hover {
+         color: rgba(0,0,0,.95);
+         transition: color 0s;
+
+         &:after {
+            left: 0;
+            width:100%;
+            transition: 
+               left .15s ease-out,
+               width .15s ease-out;
+         }
+      }
+
+      &.selected {
+         cursor: text;
+      }
+   }
+
+   // _____________
+   // Vertical mode
+   &.vertical {
+      .tab {
+         display: block;
+         margin: 0;
+         width: fit-content;
+      }
+   }
+}
+
+
+body {
+  background-color: var(--c-body-bg);
+
+  #app {
+  	height: 100vh;
+    display: grid;
+    grid-template-rows: var(--row-height) calc(100% - var(--row-height));
+
+  	.app-nav {
+      position: fixed;
+      width: 100%;
+      grid-row: 1 / 2;
+      z-index: 3;
+  	}
+  	.app-content {
+      position: relative;
+  		grid-row: 2 / 3;
+      // overflow: auto;
+      // padding-top: var(--row-height);
+  	}
+  }
+}
+
+/* unvisited link */
+a:link {
+  color: var(--secondary-cta-color);
+}
+
+/* visited link */
+a:visited {
+  color: var(--secondary-cta-color-dark);
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--secondary-cta-color-dark);
+}
+
+/* selected link */
+a:active {
+  color: var(--secondary-cta-color-bright);
+}
+

@@ -1,0 +1,91 @@
+_pages
+├── design-system-page <- _pages/design-control-panel)
+└── design-system-page-components
+    │
+    ├── page-utilities
+    │   │
+    │   ├── page-section-selector <- generate-typography/typography-mode-switch
+    │   ├── responsive-typescale-selector <- generate-typography/responsive-type-scale-selector
+    │    
+    ├── generators
+    │   │
+    │   ├── font-assigner <- generate-typography/font-manager
+    │   ├── default-spacing-maker <- generate-layout/spacing-generator
+    │   ├── baseline-generator <- generate-typography/base-values-generator
+    │   ├── font-assigner <- generate-typography/font-manager
+    │ 
+    ├── visualizers
+    │   │
+    │   ├── 
+    
+
+App
+└── router
+    │
+    ├── _pages/design-control-panel
+    │   │
+    │   ├── store/data.js
+    │   ├── node_modules/vue-flickity
+    │   ├── generate-typography/font-manager *
+    │   ├── generate-typography/typography-mode-switch *
+    │   ├── generate-typography/responsive-type-scale-selector *
+    │   ├── generate-layout/spacing-generator *
+    │   ├── generate-typography/base-values-generator *
+    │   │   │
+    │   │   ├── components/base-input-number-range/
+    │   │   ├── generate-typography/type-scaling-ratio-selector
+    │   │   ├── preview-typography/typography-web-basic-values-preview
+    │   │   │   │
+    │   │   │   ├── components/web-browser-bar
+    │   │   │   ├── preview-typography/typography-web-preview-type-sizes
+    │   │   │   │   │
+    │   │   │   │   └── preview-typograph/typography-label-divider
+    │   │   │   │
+    │   │   │   ├── preview-typography/typography-web-preview-type-usage
+    │   │   └───└── preview-layout/GridPreview
+    │   │
+    │   ├── generate-typography/vertical-rhythm-generator
+    │   │   │
+    │   │   ├── store/data.js
+    │   │   ├── components/base-input-number-with-value-range
+    │   │   └── components/base-input-number-range
+    │   │
+    │   ├── generate-typography/typesetting-generator
+    │   │   │
+    │   │   ├── generate-typography/font-weight-selector/
+    │   │   ├── generate-typography/typography-select-font-style/
+    │   │   └── components/base-input-number-range
+    │   │
+    │   ├── generate-layout/layout-web-breakpoints-table
+    │   │   │
+    │   │   └── components/base-input-number-range
+    │   │
+    │   ├── generate-layout/layout-web-css-grid-table
+    │   ├── preview-typography/typography-web-styleguide
+    │   │   │
+    │   │   ├── components/web-browser-bar
+    │   │   ├── preview-layout/GridPreview
+    │   │   ├── preview-typography/typography-web-preview-type-sizes
+    │   │   │   │
+    │   │   │   └── preview-typograph/typography-label-divider
+    │   │   │
+    │   │   └── preview-typography/typography-web-preview-type-usage
+    │   │
+    │   ├── components/inputs-styleguide
+    │   │   │
+    │   │   ├── components/base-label-divider
+    │   │   ├── node_modules/vue-form-generator
+    │   │   └── node_modules/highlight-code
+    │   │
+    │   ├── preview-code/code-preview-css-store
+    │   └── preview-code/css-generator
+    │       │
+    │       └── node_modules/highlight-code
+    │
+    ├── _pages/sass-framework-docs
+    │   │
+    │   └── sass-framework-docs/inputs-docs
+    │
+    └── _pages/mobile-app-project
+        │
+    	└── project-viewer/mobile-project-viewer

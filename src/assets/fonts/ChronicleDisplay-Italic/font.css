@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ChronicleDisplay-Italic';
+  src: url('ChronicleDisplay-Italic.eot');
+  src: url('ChronicleDisplay-Italic.woff2') format('woff2'),
+       url('ChronicleDisplay-Italic.woff') format('woff'),
+       url('ChronicleDisplay-Italic.ttf') format('truetype'),
+       url('ChronicleDisplay-Italic.svg#ChronicleDisplay-Italic') format('svg'),
+       url('ChronicleDisplay-Italic.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

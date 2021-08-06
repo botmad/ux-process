@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Hasklig-Regular';
+    src: url('Hasklig-Regular.woff2') format('woff2'),
+        url('Hasklig-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
