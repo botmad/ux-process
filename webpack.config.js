@@ -13,10 +13,10 @@ module.exports = {
   },
   plugins: [
     new VueLoaderPlugin(),
-    new BundleAnalyzerPlugin({analyzerPort: 1831}),
+    // new BundleAnalyzerPlugin({analyzerPort: 1831}),
     new CopyPlugin({
       patterns: [
-        { from: './index.html', to: 'dist' },
+        { from: './index.html', to: './' },
         // { from: 'source', to: 'dest' },
         // { from: 'other', to: 'public' },
       ],
@@ -110,11 +110,17 @@ module.exports = {
     minimize: false
   }
 }
-
+if (process.env.NODE_ENV === 'development') {
+  module.exports.devtool = '#source-map'
+  module.exports.plugins = (module.exports.plugins || []).concat([
+    new BundleAnalyzerPlugin({analyzerPort: 1831}),
+  ])
+}
 if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map'
   // http://vue-loader.vuejs.org/en/workflow/production.html
   module.exports.plugins = (module.exports.plugins || []).concat([
+    // new BundleAnalyzerPlugin({analyzerPort: 1831}),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: '"production"'
