@@ -1,5 +1,10 @@
-# Portfolio
-### made with vue.js, driven by flickity  
+# UX Process Generator
+
+Find out what established UX design activities are available to you as a designer, then cherry-pick the best ones for your project.
+Use it as a cheat sheet or to assemble the UX design timeline.
+Get stakeholder buy-in for your UX research by running them through the benefits of the evidence-based approach.
+
+### made with vue.js
 
 ## Build Setup
 
