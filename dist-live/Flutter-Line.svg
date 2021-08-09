@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Icons/Flutter-Line</title>
-    <g id="Icons/Flutter-Line" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="flutterio-icon" transform="translate(5.000000, 4.000000)" fill-rule="nonzero" stroke="#000000">
-            <path d="M11.9769307,8.14060497 L8.16558651,11.9533123 L11.9769307,15.7660197 L8.46445372,15.7660197 L4.65174636,11.9533123 L8.46445372,8.14060497 L11.9769307,8.14060497 Z M11.9767513,0.750255895 L2.71417362,10.0141977 L0.957342781,8.25736683 L8.46445372,0.750255895 L11.9767513,0.750255895 Z" id="Shape"></path>
-        </g>
-    </g>
-</svg>
