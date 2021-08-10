@@ -6,19 +6,17 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/main.js',
-  // output: {
-  //   // path and folder name for the exported file
-  //   path: path.resolve(__dirname, './dist'),
-  //   publicPath: './',
-  //   filename: 'build.js',
-  // },
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    publicPath: '/dist/',
+    filename: 'build.js'
+  },
   plugins: [
     new VueLoaderPlugin(),
-    // new BundleAnalyzerPlugin({analyzerPort: 1831}),
+    new BundleAnalyzerPlugin({analyzerPort: 1831}),
     new CopyPlugin({
       patterns: [
-        { from: './index.html', to: './' },
-        { from: './static', to: './static' },
+        { from: './index.html', to: 'dist' },
         // { from: 'source', to: 'dest' },
         // { from: 'other', to: 'public' },
       ],
@@ -113,30 +111,10 @@ module.exports = {
   }
 }
 
-// _______________
-// Run Development
-
-if (process.env.NODE_ENV === 'development') {
-  module.exports.devtool = '#source-map'
-  module.exports.plugins = (module.exports.plugins || []).concat([
-    new BundleAnalyzerPlugin({analyzerPort: 1831}),
-  ])
-  module.exports.output = {
-    // path and folder name for the exported file
-    path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
-    filename: 'build.js'
-  }
-}
-
-// _________
-// Run Build
-
 if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map'
   // http://vue-loader.vuejs.org/en/workflow/production.html
   module.exports.plugins = (module.exports.plugins || []).concat([
-    // new BundleAnalyzerPlugin({analyzerPort: 1831}),
     new webpack.DefinePlugin({
       'process.env': {
         NODE_ENV: '"production"'
@@ -146,10 +124,4 @@ if (process.env.NODE_ENV === 'production') {
       minimize: true
     })
   ])
-  module.exports.output = {
-    // path and folder name for the exported file
-    path: path.resolve(__dirname, './dist'),
-    publicPath: './',
-    filename: 'build.js',
-  }
 }

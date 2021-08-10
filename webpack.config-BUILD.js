@@ -6,12 +6,11 @@ const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/main.js',
-  // output: {
-  //   // path and folder name for the exported file
-  //   path: path.resolve(__dirname, './dist'),
-  //   publicPath: './',
-  //   filename: 'build.js',
-  // },
+  output: {
+    path: path.resolve(__dirname, './dist'),
+    publicPath: './',
+    filename: 'build.js',
+  },
   plugins: [
     new VueLoaderPlugin(),
     // new BundleAnalyzerPlugin({analyzerPort: 1831}),
@@ -112,26 +111,12 @@ module.exports = {
     minimize: false
   }
 }
-
-// _______________
-// Run Development
-
 if (process.env.NODE_ENV === 'development') {
   module.exports.devtool = '#source-map'
   module.exports.plugins = (module.exports.plugins || []).concat([
     new BundleAnalyzerPlugin({analyzerPort: 1831}),
   ])
-  module.exports.output = {
-    // path and folder name for the exported file
-    path: path.resolve(__dirname, './dist'),
-    publicPath: '/dist/',
-    filename: 'build.js'
-  }
 }
-
-// _________
-// Run Build
-
 if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map'
   // http://vue-loader.vuejs.org/en/workflow/production.html
@@ -146,10 +131,4 @@ if (process.env.NODE_ENV === 'production') {
       minimize: true
     })
   ])
-  module.exports.output = {
-    // path and folder name for the exported file
-    path: path.resolve(__dirname, './dist'),
-    publicPath: './',
-    filename: 'build.js',
-  }
 }
