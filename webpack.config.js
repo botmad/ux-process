@@ -7,9 +7,10 @@ const CopyPlugin = require('copy-webpack-plugin');
 module.exports = {
   entry: './src/main.js',
   output: {
+    // path and folder name for the exported file
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/',
-    filename: 'build.js'
+    publicPath: './',
+    filename: 'build.js',
   },
   plugins: [
     new VueLoaderPlugin(),
@@ -17,6 +18,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: './index.html', to: './' },
+        { from: './static', to: './static' },
         // { from: 'source', to: 'dest' },
         // { from: 'other', to: 'public' },
       ],
