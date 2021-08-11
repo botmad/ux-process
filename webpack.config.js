@@ -113,8 +113,8 @@ module.exports = {
   }
 }
 
-// _______________
-// Run Development
+// ___________
+// npm run dev
 
 if (process.env.NODE_ENV === 'development') {
   module.exports.devtool = '#source-map'
@@ -129,8 +129,8 @@ if (process.env.NODE_ENV === 'development') {
   }
 }
 
-// _________
-// Run Build
+// _____________
+// npm run build
 
 if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map'
