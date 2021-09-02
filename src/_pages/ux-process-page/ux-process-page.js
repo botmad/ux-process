@@ -88,6 +88,7 @@ const DiscoverySubSections = [
         <div class="links-section articles">
           <h6>Articles</h6>
           <ul>
+            <li><a href="https://www.nngroup.com/articles/benchmarking-ux/?lm=ab-testing-vs-usability-testing&pt=youtubevideo">Benchmarking UX: Tracking Metrics</a></li>
             <li><a href="https://www.nngroup.com/articles/calculating-roi-design-projects/">Calculating ROI for Design Projects in 4 Steps</a></li>
             <li><a href="https://www.nngroup.com/articles/three-myths-roi-ux/">Three Myths About Calculating the ROI of UX</a></li>
             <li><a href="https://www.uxmatters.com/mt/archives/2012/07/how-to-calculate-the-roi-of-ux-using-metrics.php">How to Calculate the ROI of UX Using Metrics</a></li>
@@ -97,6 +98,7 @@ const DiscoverySubSections = [
           <h6>Short Videos</h6>
           <ul>
             <li><a href="https://www.nngroup.com/videos/ux-benchmarking/">The Benefits of Benchmarking Your Product's UX</a></li>
+            <li><a href="https://www.nngroup.com/videos/dont-overthink-ux-roi/">Don't Overthink UX ROI</a></li>
             <li><a href="https://www.nngroup.com/videos/handle-bad-ux-requests/">Handle Bad UX Requests Without Saying No</a></li>        
           </ul>
         </div>
@@ -117,7 +119,23 @@ const ResearchSubSections = [
   {
     id: 1,
     active: false,
-    title: 'Research Proposal',
+    title: 'Concept Statement',
+    details: `
+      <p>A concept statement is a concise summary of the product vision. It's important to define a concept statement as it helps in determining the product scope and acts as a guide for deciding on features and use cases.</p>
+      <h6>Concept statement should include</h6>
+      <ul>
+        <li>Proposed product name/li>
+        <li>Target users</li>
+        <li>A one-line description of the product</li>
+        <li>What problem(s) the product will solve</li>
+      </ul>
+    `,
+    extraClasses: 'ovp mvp new',
+  },
+  {
+    id: 2,
+    active: false,
+    title: 'Writing Research Proposals',
     details: `
       <p>Trying to get a buy-in for UX research from the client can be frustrating. Using the right approach and appropriate support can help you win it.</p>
       <div class="links">
@@ -146,40 +164,27 @@ const ResearchSubSections = [
     extraClasses: 'ovp mvp new established',
   },
   {
-    id: 2,
-    active: false,
-    title: 'Competitor Analysis',
-    details: `
-      <p>Data on what works well or poorly on other sites saves you from implementing useless features and guides UX investments to features that your users need. A competitive analysis is a way to collect and compare data about products in the marketplace. It is often good initial research activity for a project allowing you to take an in-depth look at how others solve the same design problems. It can help determine the direction of a design or the need for the development of a feature. In the more advanced stage of the design process, competitive evaluations let you assess if your design is better or worse than your competitors.</p>
-      <h6>Articles</h6>
-      <ul>
-        <li><a href="https://www.nngroup.com/articles/competitive-usability-evaluations/">Competitive Usability Evaluations: Learning from Your Competition</a></li>
-        <li><a href="https://uxplanet.org/top-things-to-know-about-ux-competitive-analysis-d91689fd8b36">Top Things to Know About UX Competitive Analysis</a></li>
-        <li><a href="https://medium.com/user-research/competitive-analysis-b02daf26a96e">Competitive Analysis</a></li>
-      </ul>
-    `,
-    extraClasses: 'ovp mvp new established',
-  },
-  {
     id: 3,
     active: false,
-    title: `Ethnographic Field Studies`,
+    title: 'Analytics Data Review',
     details: `
-      <p>Field research is conducted in the user’s context and location. Learn the unexpected by leaving the office and observing people in their natural environment.</p>
+      <p>Google Analytics is filled with very useful information for UX Strategists defining a baseline and tracking trends in order to define goals, strategies, and concepts for a brighter tomorrow. These metrics tell you what customers are doing, but not why they are doing it. Pairing analytics and user research will provide you with clearer answers.</p>
       <div class="links">
         <div class="links-section articles">
           <h6>Articles</h6>
           <ul>
-            <li><a href="https://www.nngroup.com/articles/field-studies/">Field Studies</a></li>
-            <li><a href="https://www.nngroup.com/articles/field-studies-done-right-fast-and-observational/">Field Studies Done Right: Fast and Observational</a></li>
-            <li><a href="https://www.nngroup.com/articles/tips-user-research-field/?lm=field-studies&pt=article">27 Tips and Tricks for Conducting Successful User Research in the Field</a></li>
+            <li><a href="https://www.nngroup.com/articles/analytics-reports-ux-strategists/">Five Essential Analytics Reports for UX Strategists</a></li>
+            <li><a href="https://www.nngroup.com/articles/vanity-metrics/">Vanity Metrics: Add Context to Add Meaning</a></li>
+            <li><a href="https://www.nngroup.com/articles/quant-research-practice/">Quantitative UX Research in Practice</a></li>
           </ul>
         </div>
         <div class="links-section videos">
           <h6>Short Videos</h6>
           <ul>
-            <li><a href="https://www.nngroup.com/videos/4-steps-field-studies/">4 Steps to Field Studies with Users</a></li>
-            <li><a href="https://www.nngroup.com/videos/remote-field-studies/">Doing Field Studies Remotely</a></li>
+            <li><a href="https://www.nngroup.com/videos/turning-analytics-findings-usability-studies/">Turning Analytics Findings Into Usability Studies</a></li>
+            <li><a href="https://www.nngroup.com/videos/analytics-vs-quantitative-usability-testing/">Analytics vs. Quantitative Usability Testing</a></li>
+            <li><a href="https://www.nngroup.com/videos/analytics-what-do-numbers-really-mean/">In Analytics, What do the Numbers Really Mean?</a></li>
+            <li><a href="https://www.nngroup.com/videos/vanity-metrics-analytics/">Vanity Metrics in Analytics</a></li>
           </ul>
         </div>
       </div>
@@ -222,82 +227,6 @@ const ResearchSubSections = [
   {
     id: 6,
     active: false,
-    title: 'Surveys',
-    details: `
-      <p>Quantitative surveys ask questions that can be answered by checkbox or radio button, and when you want to be sure your data is broadly applicable to a large number of people. Qualitative surveys ask open-ended questions to generate useful information via a conversation rather than a vote, such as when you’re not sure what the right set of answers might include.</p>
-      <div class="links">
-        <div class="links-section articles">    
-          <h6>Articles</h6>
-          <ul>
-            <li><a href="https://www.nngroup.com/articles/qualitative-surveys/">28 Tips for Creating Great Qualitative Surveys</a></li>
-            <li><a href="https://www.nngroup.com/articles/keep-online-surveys-short/">https://www.nngroup.com/articles/keep-online-surveys-short/</a></li>
-          </ul>
-        </div>
-        <div class="links-section videos">
-          <h6>Short Videos</h6>
-          <ul>
-            <li><a href="https://www.nngroup.com/videos/survey-response-biases/">Survey Response Biases in User Research</a></li>
-          </ul>
-        </div>
-      </div>
-    `,
-    extraClasses: 'established',
-  },
-  {
-    id: 7,
-    active: false,
-    title: 'Analytics Data Review',
-    details: `
-      <p>Google Analytics is filled with very useful information for UX Strategists defining a baseline and tracking trends in order to define goals, strategies, and concepts for a brighter tomorrow. These metrics tell you what customers are doing, but not why they are doing it. Pairing analytics and user research will provide you with clearer answers.</p>
-      <div class="links">
-        <div class="links-section articles">
-          <h6>Articles</h6>
-          <ul>
-            <li><a href="https://www.nngroup.com/articles/analytics-reports-ux-strategists/">Five Essential Analytics Reports for UX Strategists</a></li>
-            <li><a href="https://www.nngroup.com/articles/vanity-metrics/">Vanity Metrics: Add Context to Add Meaning</a></li>
-          </ul>
-        </div>
-        <div class="links-section videos">
-          <h6>Short Videos</h6>
-          <ul>
-            <li><a href="https://www.nngroup.com/videos/turning-analytics-findings-usability-studies/">Turning Analytics Findings Into Usability Studies</a></li>
-            <li><a href="https://www.nngroup.com/videos/analytics-vs-quantitative-usability-testing/">Analytics vs. Quantitative Usability Testing</a></li>
-            <li><a href="https://www.nngroup.com/videos/analytics-what-do-numbers-really-mean/">In Analytics, What do the Numbers Really Mean?</a></li>
-            <li><a href="https://www.nngroup.com/videos/vanity-metrics-analytics/">Vanity Metrics in Analytics</a></li>
-          </ul>
-        </div>
-      </div>
-    `,
-    extraClasses: 'established',
-  },
-  {
-    id: 8,
-    active: false,
-    title: 'Empathy Mapping',
-    details: `
-      <p>In order to advocate on behalf of the user, not only must we deeply understand our users, but we must also help our colleagues understand them and prioritise their needs. An empathy map is a tool used to articulate what we know about a particular type of user by visualising their attitudes and behaviours.</p>
-      <div class="links">
-        <div class="links-section articles">
-          <h6>Articles</h6>
-          <ul>
-            <li><a href="https://www.nngroup.com/articles/empathy-mapping/">Empathy Mapping: The First Step in Design Thinking</a></li>
-            <li><a href="https://www.nngroup.com/articles/sympathy-vs-empathy-ux/">Sympathy vs. Empathy in UX</a></li>
-          </ul>
-        </div>
-        <div class="links-section videos">
-          <h6>Short Videos</h6>
-          <ul>
-            <li><a href="https://www.nngroup.com/videos/empathy-map/">How to Empathy Map</a></li>
-            <li><a href="https://www.nngroup.com/videos/ux-professionals-most-important-skill/">Most Important Skill Required for UX Professionals</a></li>
-          </ul>
-        </div>
-      </div>
-    `,
-    extraClasses: 'ovp mvp new established',
-  },
-  {
-    id: 9,
-    active: false,
     title: 'User Personas',
     details: `
       <p>Personas are representations of a cluster of users with similar behaviors, goals, and motivations. As such, personas are fictional, yet still realistic because they embody the characteristics and behaviors of actual people. Personas are used to communicate information about users and create a common ground among different team members by unifying their views and understanding of target users.</p>
@@ -326,7 +255,97 @@ const ResearchSubSections = [
     extraClasses: 'ovp mvp new established',
   },
   {
+    id: 7,
+    active: false,
+    title: `Ethnographic Field Studies`,
+    details: `
+      <p>Field research is conducted in the user’s context and location. Learn the unexpected by leaving the office and observing people in their natural environment.</p>
+      <div class="links">
+        <div class="links-section articles">
+          <h6>Articles</h6>
+          <ul>
+            <li><a href="https://www.nngroup.com/articles/field-studies/">Field Studies</a></li>
+            <li><a href="https://www.nngroup.com/articles/field-studies-done-right-fast-and-observational/">Field Studies Done Right: Fast and Observational</a></li>
+            <li><a href="https://www.nngroup.com/articles/tips-user-research-field/?lm=field-studies&pt=article">27 Tips and Tricks for Conducting Successful User Research in the Field</a></li>
+          </ul>
+        </div>
+        <div class="links-section videos">
+          <h6>Short Videos</h6>
+          <ul>
+            <li><a href="https://www.nngroup.com/videos/4-steps-field-studies/">4 Steps to Field Studies with Users</a></li>
+            <li><a href="https://www.nngroup.com/videos/remote-field-studies/">Doing Field Studies Remotely</a></li>
+          </ul>
+        </div>
+      </div>
+    `,
+    extraClasses: 'established',
+  },
+  {
+    id: 8,
+    active: false,
+    title: 'Surveys',
+    details: `
+      <p>Quantitative surveys ask questions that can be answered by checkbox or radio button, and when you want to be sure your data is broadly applicable to a large number of people. Qualitative surveys ask open-ended questions to generate useful information via a conversation rather than a vote, such as when you’re not sure what the right set of answers might include.</p>
+      <div class="links">
+        <div class="links-section articles">    
+          <h6>Articles</h6>
+          <ul>
+            <li><a href="https://www.nngroup.com/articles/qualitative-surveys/">28 Tips for Creating Great Qualitative Surveys</a></li>
+            <li><a href="https://www.nngroup.com/articles/keep-online-surveys-short/">https://www.nngroup.com/articles/keep-online-surveys-short/</a></li>
+          </ul>
+        </div>
+        <div class="links-section videos">
+          <h6>Short Videos</h6>
+          <ul>
+            <li><a href="https://www.nngroup.com/videos/survey-response-biases/">Survey Response Biases in User Research</a></li>
+          </ul>
+        </div>
+      </div>
+    `,
+    extraClasses: 'established',
+  },
+  {
+    id: 9,
+    active: false,
+    title: 'Competitor Analysis',
+    details: `
+      <p>Data on what works well or poorly on other sites saves you from implementing useless features and guides UX investments to features that your users need. A competitive analysis is a way to collect and compare data about products in the marketplace. It is often good initial research activity for a project allowing you to take an in-depth look at how others solve the same design problems. It can help determine the direction of a design or the need for the development of a feature. In the more advanced stage of the design process, competitive evaluations let you assess if your design is better or worse than your competitors.</p>
+      <h6>Articles</h6>
+      <ul>
+        <li><a href="https://www.nngroup.com/articles/competitive-usability-evaluations/">Competitive Usability Evaluations: Learning from Your Competition</a></li>
+        <li><a href="https://uxplanet.org/top-things-to-know-about-ux-competitive-analysis-d91689fd8b36">Top Things to Know About UX Competitive Analysis</a></li>
+        <li><a href="https://medium.com/user-research/competitive-analysis-b02daf26a96e">Competitive Analysis</a></li>
+      </ul>
+    `,
+    extraClasses: 'ovp mvp new established',
+  },
+  {
     id: 10,
+    active: false,
+    title: 'Empathy Mapping',
+    details: `
+      <p>In order to advocate on behalf of the user, not only must we deeply understand our users, but we must also help our colleagues understand them and prioritise their needs. An empathy map is a tool used to articulate what we know about a particular type of user by visualising their attitudes and behaviours.</p>
+      <div class="links">
+        <div class="links-section articles">
+          <h6>Articles</h6>
+          <ul>
+            <li><a href="https://www.nngroup.com/articles/empathy-mapping/">Empathy Mapping: The First Step in Design Thinking</a></li>
+            <li><a href="https://www.nngroup.com/articles/sympathy-vs-empathy-ux/">Sympathy vs. Empathy in UX</a></li>
+          </ul>
+        </div>
+        <div class="links-section videos">
+          <h6>Short Videos</h6>
+          <ul>
+            <li><a href="https://www.nngroup.com/videos/empathy-map/">How to Empathy Map</a></li>
+            <li><a href="https://www.nngroup.com/videos/ux-professionals-most-important-skill/">Most Important Skill Required for UX Professionals</a></li>
+          </ul>
+        </div>
+      </div>
+    `,
+    extraClasses: 'ovp mvp new established',
+  },
+  {
+    id: 11,
     active: false,
     title: 'User Stories',
     details: `
@@ -347,7 +366,7 @@ const ResearchSubSections = [
     extraClasses: 'ovp mvp new established',
   },
   {
-    id: 11,
+    id: 12,
     active: false,
     title: 'Stakeholder Review',
     details: `
@@ -359,25 +378,9 @@ const ResearchSubSections = [
     `,
     extraClasses: 'ovp mvp new established',
   },
-  {
-    id: 12,
-    active: false,
-    title: 'Concept Statement',
-    details: `
-      <p>A concept statement is a concise summary of the product vision. It's important to define a concept statement as it helps in determining the product scope and acts as a guide for deciding on features and use cases.</p>
-      <h6>Concept statement should include</h6>
-      <ul>
-        <li>Proposed product name/li>
-        <li>Target users</li>
-        <li>A one-line description of the product</li>
-        <li>What problem(s) the product will solve</li>
-      </ul>
-    `,
-    extraClasses: 'ovp mvp new',
-  },
 ]
 const IdeationSection = {
-    title: 'Ideation',
+    title: 'Analysis and Ideation',
     description: `
       <p>Ideation is the process of generating a broad set of ideas, with no attempt to judge or evaluate them. Before ideation, always make sure that you and all the participants are solving the right problem. The focus of ideation is quantity instead of quality. There are no bad ideas, crazy is welcomed.</p>
     `
@@ -440,7 +443,7 @@ const IdeationSubSections = [
   {
     id: 3,
     active: false,
-    title: 'Sketching Excercise',
+    title: 'Sketching',
     details: `
       <p>You can sketch the product flow and features. Avoid getting into details at this stage. Note that this is neither a wireframe nor a prototype. Sketch out ideas and brainstorm them with your peers. Iterate on the process until you feel confident to move on with wireframes.</p>
 
@@ -457,14 +460,14 @@ const IdeationSubSections = [
   {
     id: 4,
     active: false,
-    title: 'Evaluating Outcomes',
+    title: 'Evaluating Ideation Outcomes',
     details: `
       <p>Methods range from using affinity diagrams to cluster ideas, to having each proposed design critiqued by the group, to taking a “vote” on the different suggestions. This process will help you understand the various goals and benefits of each idea, and which concepts resonate with the group when the time comes to move on to the prototyping stage. Keep in mind that you needn’t choose a single design — prototype the top three ideas (or combinations of several ideas) to test and discover which is the best concept.</p>
     `
   },
 ]
 const DefinitionSection = {
-    title: 'Definition',
+    title: 'Define and Devise',
     description: `
       <p>Iterate, review and critique your approach with the team and stakeholders to ensure that the project unveils to everyone's satisfaction.</p>
     `
@@ -554,28 +557,6 @@ const DefinitionSubSections = [
   {
     id: 4,
     active: false,
-    title: 'Key Path Scenario',
-    details: `
-      <p>Key Path Scenario is an In-depth user journey map that describes the persona’s interaction with the product. The focus is on describing how the persona will achieve the task by interacting with various interface elements of the product. This phase is focused on devising solutions and delivering high-level specifications for product’s fundamental forms and behaviours.</p>
-      <ul>
-        <li>Begin with context scenario and start grouping functionalities based on the task flow outlined in the context scenario.</li>
-        <li>Draw a rough wireframe for each view and its component elements.</li>
-        <li>Identify the major interaction elements for each view.</li>
-        <li>Define relationships between the views and keep focus on the persona’s goal.</li>
-        <li>Trim any unnecessary tasks and actions that deviate from the goal.</li>
-        <li>Iterate the process to refine the flow and interaction elements.</li>
-      </ul>
-
-      <h6>Articles</h6>
-      <ul>
-        <li><a href="https://www.slideshare.net/mobile/ebacon/scenarios-for-design-interaction10-workshop-by-elizabeth-bacon">Scenarios For Design: Interaction10 Workshop by Elizabeth Bacon</a></li>
-      </ul>
-    `,
-    extraClasses: 'ovp mvp new established',
-  },
-  {
-    id: 5,
-    active: false,
     title: 'Card Sorting',
     details: `
       <p>Card sorting is a research tool used to assess or determine the way information is grouped, labelled, and organised within a site by allowing users to sort content topics into categories that make sense to them.</p>
@@ -601,6 +582,28 @@ const DefinitionSubSections = [
       </div>
     `,
     extraClasses: 'ovp mvp new',
+  },
+  {
+    id: 5,
+    active: false,
+    title: 'Key Path Scenario',
+    details: `
+      <p>Key Path Scenario is an In-depth user journey map that describes the persona’s interaction with the product. The focus is on describing how the persona will achieve the task by interacting with various interface elements of the product. This phase is focused on devising solutions and delivering high-level specifications for product’s fundamental forms and behaviours.</p>
+      <ul>
+        <li>Begin with context scenario and start grouping functionalities based on the task flow outlined in the context scenario.</li>
+        <li>Draw a rough wireframe for each view and its component elements.</li>
+        <li>Identify the major interaction elements for each view.</li>
+        <li>Define relationships between the views and keep focus on the persona’s goal.</li>
+        <li>Trim any unnecessary tasks and actions that deviate from the goal.</li>
+        <li>Iterate the process to refine the flow and interaction elements.</li>
+      </ul>
+
+      <h6>Articles</h6>
+      <ul>
+        <li><a href="https://www.slideshare.net/mobile/ebacon/scenarios-for-design-interaction10-workshop-by-elizabeth-bacon">Scenarios For Design: Interaction10 Workshop by Elizabeth Bacon</a></li>
+      </ul>
+    `,
+    extraClasses: 'ovp mvp new established',
   },
   {
     id: 6,
@@ -655,7 +658,7 @@ const DefinitionSubSections = [
   },
 ]
 const ExecutionSection = {
-    title: 'Execution',
+    title: 'Execute and Measure',
     description: `
       <p>Drive an emphasis on early and rapid iteration with frequent usability input.</p>
     `
@@ -676,67 +679,6 @@ const ExecutionSubSections = [
   },
   {
     id: 2,
-    active: false,
-    title: 'Narrowed-down Prototypes',
-    details: `
-      <p>Using a narrowed-down in scope prototype, you can self-test, and more importantly user test early design ideas at an extremely low cost. Doing so lets you fix usability problems before wasting money implementing something that doesn't work.</p>
-      <div class="links">
-        <div class="links-section articles">
-          <h6>Articles</h6>
-          <ul>
-            <li><a href="https://www.nngroup.com/articles/paper-prototyping/">Paper Prototyping: Getting User Data Before You Code</a></li>
-            <li><a href="https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/">UX Prototypes: Low Fidelity vs. High Fidelity</a></li>
-            <li><a href="https://www.nngroup.com/articles/mozilla-paper-prototype/">Test Paper Prototypes to Save Time and Money: The Mozilla Case Study</a></li>
-            <li><a href="https://www.nngroup.com/articles/ia-view-prototype/">IA-Based View of Prototype Fidelity</a></li>
-          </ul>
-        </div>
-        <div class="links-section videos">
-          <h6>Short Videos</h6>
-          <ul>
-            <li><a href="https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/">Prototypes vs Wireframes in UX Projects</a></li>
-            <li><a href="https://www.nngroup.com/videos/paper-prototyping-101/">Paper Prototyping 101/a></li>
-            <li><a href="https://www.nngroup.com/videos/just-enough-prototypes/">Just-Enough Prototypes Make Communicating Specs More Successful</a></li>
-            <li><a href="https://www.nngroup.com/videos/low-fi-prototypes-stakeholders/">Presenting Low-Fidelity Prototypes to Stakeholders</a></li>
-          </ul>
-        </div>
-      </div>
-    `,
-    extraClasses: 'ovp mvp new established',
-  },
-  {
-    id: 3,
-    active: false,
-    title: 'Simplified User Testing',
-    details: `
-      <p>In an ideal world there would be no excuse for not performing usability studies. They’re fast, cheap, and very convincing. Test with representative customers using realistic task, then be amazed by what you observe. UX researchers use this popular observational methodology to uncover problems and opportunities in designs.</p>
-
-      <p>Even with a paper prototype, you can user test early design ideas at an extremely low cost. Doing so lets you fix usability problems before you waste money implementing something that doesn't work.</p>
-      <div class="links">
-        <div class="links-section articles">
-          <h6>Articles</h6>
-          <ul>
-            <li><a href="https://www.nngroup.com/articles/how-many-test-users/">How Many Test Users in a Usability Study?</a></li>
-            <li><a href="https://www.nngroup.com/articles/authentic-behavior-in-user-testing/">Authentic Behavior in User Testing</a></li>
-            <li><a href="https://www.nngroup.com/articles/testing-expert-users/">Testing Expert Users</a></li>
-            <li><a href="https://www.nngroup.com/articles/stakeholders-and-user-testing/">Involving Stakeholders in User Testing</a></li>
-            <li><a href="https://www.nngroup.com/articles/cost-of-user-testing-a-website/">Cost of User Testing a Website</a></li>
-          </ul>
-        </div>
-        <div class="links-section videos">
-          <h6>Short Videos</h6>
-          <ul>
-            <li><a href="https://www.nngroup.com/videos/user-testing-jakob-nielsen/">User Testing: Why & How (Jakob Nielsen)</a></li>
-            <li><a href="https://www.nngroup.com/videos/user-testing-facilitation-techniques/">User Testing Facilitation Techniques</a></li>
-            <li><a href="https://www.nngroup.com/videos/remote-usability-test-part-1/">Running a Remote Usability Test, Part 1</a></li>
-            <li><a href="https://www.nngroup.com/videos/remote-usability-test-part-2/">Running a Remote Usability Test, Part 2</a></li>
-          </ul>
-        </div>
-      </div>
-    `,
-    extraClasses: 'ovp mvp new established',
-  },
-  {
-    id: 4,
     active: false,
     title: 'Heuristic Evaluation',
     details: `
@@ -772,7 +714,98 @@ const ExecutionSubSections = [
     extraClasses: 'ovp mvp new established',
   },
   {
+    id: 3,
+    active: false,
+    title: 'Narrowed-down Prototypes',
+    details: `
+      <p>Using a narrowed-down in scope prototype, you can self-test, and more importantly user test early design ideas at an extremely low cost. Doing so lets you fix usability problems before wasting money implementing something that doesn't work.</p>
+      <div class="links">
+        <div class="links-section articles">
+          <h6>Articles</h6>
+          <ul>
+            <li><a href="https://www.nngroup.com/articles/paper-prototyping/">Paper Prototyping: Getting User Data Before You Code</a></li>
+            <li><a href="https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/">UX Prototypes: Low Fidelity vs. High Fidelity</a></li>
+            <li><a href="https://www.nngroup.com/articles/mozilla-paper-prototype/">Test Paper Prototypes to Save Time and Money: The Mozilla Case Study</a></li>
+            <li><a href="https://www.nngroup.com/articles/ia-view-prototype/">IA-Based View of Prototype Fidelity</a></li>
+          </ul>
+        </div>
+        <div class="links-section videos">
+          <h6>Short Videos</h6>
+          <ul>
+            <li><a href="https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/">Prototypes vs Wireframes in UX Projects</a></li>
+            <li><a href="https://www.nngroup.com/videos/paper-prototyping-101/">Paper Prototyping 101/a></li>
+            <li><a href="https://www.nngroup.com/videos/just-enough-prototypes/">Just-Enough Prototypes Make Communicating Specs More Successful</a></li>
+            <li><a href="https://www.nngroup.com/videos/low-fi-prototypes-stakeholders/">Presenting Low-Fidelity Prototypes to Stakeholders</a></li>
+          </ul>
+        </div>
+      </div>
+    `,
+    extraClasses: 'ovp mvp new established',
+  },
+  {
+    id: 4,
+    active: false,
+    title: 'Simplified User Testing',
+    details: `
+      <p>In an ideal world there would be no excuse for not performing usability studies. They’re fast, cheap, and very convincing. Test with representative customers using realistic task, then be amazed by what you observe. UX researchers use this popular observational methodology to uncover problems and opportunities in designs.</p>
+
+      <p>Even with a paper prototype, you can user test early design ideas at an extremely low cost. Doing so lets you fix usability problems before you waste money implementing something that doesn't work.</p>
+      <div class="links">
+        <div class="links-section articles">
+          <h6>Articles</h6>
+          <ul>
+            <li><a href="https://www.nngroup.com/articles/how-many-test-users/">How Many Test Users in a Usability Study?</a></li>
+            <li><a href="https://www.nngroup.com/articles/authentic-behavior-in-user-testing/">Authentic Behavior in User Testing</a></li>
+            <li><a href="https://www.nngroup.com/articles/testing-expert-users/">Testing Expert Users</a></li>
+            <li><a href="https://www.nngroup.com/articles/stakeholders-and-user-testing/">Involving Stakeholders in User Testing</a></li>
+            <li><a href="https://www.nngroup.com/articles/cost-of-user-testing-a-website/">Cost of User Testing a Website</a></li>
+          </ul>
+        </div>
+        <div class="links-section videos">
+          <h6>Short Videos</h6>
+          <ul>
+            <li><a href="https://www.nngroup.com/videos/user-testing-jakob-nielsen/">User Testing: Why & How (Jakob Nielsen)</a></li>
+            <li><a href="https://www.nngroup.com/videos/user-testing-facilitation-techniques/">User Testing Facilitation Techniques</a></li>
+            <li><a href="https://www.nngroup.com/videos/remote-usability-test-part-1/">Running a Remote Usability Test, Part 1</a></li>
+            <li><a href="https://www.nngroup.com/videos/remote-usability-test-part-2/">Running a Remote Usability Test, Part 2</a></li>
+          </ul>
+        </div>
+      </div>
+    `,
+    extraClasses: 'ovp mvp new established',
+  },
+  {
     id: 5,
+    active: false,
+    title: 'A/B Testing',
+    details: `
+      <p>A/B testing can quickly show which design performs best</p>
+
+      <div class="links">
+        <div class="links-section articles">
+          <h6>Articles</h6>
+          <ul>
+            <li><a href="https://www.nngroup.com/articles/ab-testing-and-ux-research/">Define Stronger A/B Test Variations Through UX Research</a></li>
+            <li><a href="https://www.nngroup.com/articles/putting-ab-testing-in-its-place/">Putting A/B Testing in Its Place</a></li>
+            <li><a href="https://www.nngroup.com/articles/multivariate-testing/">Multivariate vs. A/B Testing: Incremental vs. Radical Changes</a></li>
+            <li><a href="https://www.nngroup.com/articles/ab-testing-usability-engineering/">A/B Testing, Usability Engineering, Radical Innovation: What Pays Best?</a></li>
+          </ul>
+        </div>
+        <div class="links-section videos">
+          <h6>Short Videos</h6>
+          <ul>
+            <li><a href="https://www.nngroup.com/videos/ab-testing-101/">A/B Testing 101</a></li>
+            <li><a href="https://www.nngroup.com/videos/dont-ab-test-yourself-cliff/">Don't A/B Test Yourself Off a Cliff</a></li>
+            <li><a href="https://www.nngroup.com/videos/ab-testing-vs-usability-testing/">Is A/B Testing Faster than Usability Testing at Getting Results?</a></li>
+            <li><a href="https://www.nngroup.com/videos/a-b-testing-vs-multivariate/">A/B Testing vs. Multivariate Testing for Design Optimization</a></li>
+          </ul>
+        </div>
+      </div>
+    `,
+    extraClasses: 'ovp mvp new established',
+  },
+  {
+    id: 6,
     active: false,
     title: 'Critique Session',
     details: `
@@ -853,6 +886,7 @@ export default {
       deliverySection: DeliverySection,
       deliverySubSections: DeliverySubSections,
       selectedProductType: 3,
+      targetAudience: 'designer',
     };
   },
   computed: {

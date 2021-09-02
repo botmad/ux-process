@@ -1,0 +1,238 @@
+#process-page {
+	position: relative;
+    width:100%;
+    display:grid;
+    grid-template-columns:
+        var(--outer-gutter-col)
+        repeat(12, 1fr)
+        var(--outer-gutter-col);
+    // grid-template-rows: repeat(2, var(--row-height)) auto auto;
+    grid-gap: 0 var(--gutter);
+	background-color: var(--body-bg-color);
+
+	.page-layout-top {
+		position: relative;
+		grid-column: 2 / 14;
+		height: var(--body-layout-top-gap);
+		display: grid;
+	    grid-template-columns: repeat(10, 1fr);
+	    grid-gap: 0 var(--gutter);
+
+		.center-vertically {
+			grid-column: 1 / 11;
+		    display: flex;
+		    align-items: center;
+
+			.process-filters {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.process-section {
+		position: relative;
+		grid-column: 2 / 14;
+		display: grid;
+		grid-template-columns: repeat(10, 1fr);
+		grid-gap: 0 var(--gutter);
+		&:first-child {
+			margin-top: var(--body-layout-top-gap);
+		}
+
+		.section-title {
+			grid-column: 1 / 12;
+		}
+		.section-description {
+			grid-column: 1 / 12;
+		}
+		.sub-sections {
+			grid-column: 1 / 12;
+
+			.accordion {
+			  margin-bottom: calc(var(--body-baseline) * 3);
+			}
+
+			.links {
+				display: flex;
+				.links-section {
+					flex: 1 1 50%;
+					margin-right: var(--gutter);
+					&:last-child {
+						margin-right: 0;
+					}
+					ul {
+						font-size: var(--body-sm-font-size);
+						li {
+							list-style-type: disc;
+						    line-height: 1.33;
+						    margin-bottom: .66em;
+						    margin-left: 2em;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	// __________________
+	// Render side labels
+
+	.process-section.discovery:before,
+	.process-section.research:before,
+	.process-section.definition:before {
+	    content: "Intro";
+	    position: relatve;
+	    grid-column: 1 / 12;
+	    text-transform: uppercase;
+	    color: var(--body-txt-color-secondary);
+	    margin-bottom: var(--body-baseline);
+	}
+	.process-section.research:before {
+	    content: "Foundational UX";
+	}
+	.process-section.definition:before {
+	    content: "Production level UX";
+	}
+
+	// |--------------------|
+	// | RESPONSIVE LAYOUTS |
+	// |--------------------|
+
+	// _______________________
+	// from phone-landscape up
+
+	@media only screen and (min-width: 521px) {
+
+		.process-section {
+			grid-column: 3 / 13;
+
+			.section-title {
+				grid-column: 1 / 10;
+			}
+			.section-description {
+				grid-column: 1 / 10;
+			}
+			.sub-sections {
+				grid-column: 1 / 10;
+			}
+		}
+		.page-layout-top {
+			grid-column: 3 / 13;
+		}
+		.process-section.discovery:before,
+		.process-section.research:before,
+		.process-section.definition:before {
+		    position: absolute;
+		    top: 0;
+		    right: -11.5rem;
+		    width: 10rem;
+		    margin-bottom: 0;
+		    transform: rotate(90deg);
+		    font-size: var(--body-sm-font-size);
+		    text-transform: uppercase;
+		    transform-origin: top left;
+		}
+	}
+
+	// _______________________
+	// from tablet-portrait up
+
+	@media only screen and (min-width: 740px) {
+
+		.process-section {
+			grid-column: 3 / 13;
+
+			.section-title {
+				grid-column: 1 / 10;
+			}
+			.section-description {
+				grid-column: 1 / 10;
+			}
+			.sub-sections {
+				grid-column: 1 / 10;
+			}
+		}
+		.page-layout-top {
+			grid-column: 3 / 13;
+		}
+	}
+
+	// ________________________
+	// from tablet-landscape up
+
+	@media only screen and (min-width: 1020px) {
+
+		.process-section {
+			grid-column: 2 / 14;
+
+			.section-title {
+				grid-column: 1 / 3;
+			}
+			.section-description {
+				grid-column: 3 / 6;
+				margin-bottom: calc(var(--body-baseline) * 2)
+			}
+			.sub-sections {
+				grid-column: 6 / 10;
+			}
+		}
+		.page-layout-top {
+			grid-column: 2 / 14;
+
+			.center-vertically {
+				grid-column: 6 / 10;
+			}
+		}
+		.process-section.discovery:before,
+		.process-section.research:before,
+		.process-section.definition:before {
+		    right: -8.5rem;
+		}
+	}
+
+	// ______________
+	// from laptop up
+
+	@media only screen and (min-width: 1200px) {
+		.process-section {
+			grid-column: 3 / 13;
+
+			.section-title {
+				grid-column: 1 / 3;
+			}
+			.section-description {
+				grid-column: 3 / 6;
+				margin-bottom: calc(var(--body-baseline) * 2)
+			}
+			.sub-sections {
+				grid-column: 6 / 10;
+			}
+		}
+		.page-layout-top {
+			grid-column: 3 / 13;
+		}
+	}
+
+	// _____________________
+	// from large desktop up
+
+	@media only screen and (min-width: 1800px) {
+		.process-section {
+			grid-column: 4 / 12;
+
+			.section-title {
+				grid-column: 2 / 3;
+			}
+			.section-description {
+				grid-column: 3 / 6;
+				margin-bottom: calc(var(--body-baseline) * 2)
+			}
+			.sub-sections {
+				grid-column: 6 / 10;
+			}
+		}
+		.page-layout-top {
+			grid-column: 3 / 13;
+		}
+	}
+}

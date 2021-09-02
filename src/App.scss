@@ -151,13 +151,14 @@ body {
   #app {
   	height: 100vh;
     display: grid;
-    grid-template-rows: var(--row-height) calc(100% - var(--row-height));
+    // grid-template-rows: var(--row-height) calc(100% - var(--row-height));
 
   	.app-nav {
-      position: fixed;
+      position: relative;
       width: 100%;
       grid-row: 1 / 2;
       z-index: 3;
+      top: 0;
   	}
   	.app-content {
       position: relative;
