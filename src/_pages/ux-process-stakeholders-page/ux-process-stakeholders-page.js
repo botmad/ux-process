@@ -27,7 +27,7 @@ const DiscoverySubSections = [
     title: 'Clarify KPI and Success Criteria',
     details: `
       <h6>What is it?</h6>
-      <p>A set of factors that can be measured to determine success.</p>
+      <p>A set of factors that can be measured to determine success after implementaion.</p>
       <h6>When to do it?</h6>
       <p>At the beginning of the project</p>
       <h6>What are you getting out of this?</h6>
