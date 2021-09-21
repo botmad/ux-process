@@ -82,6 +82,26 @@ p, ul, ol, select, input, blockquote {
    }
 }
 
+ul {
+   // font-size: var(--body-sm-font-size);
+   li {
+      list-style-type: disc;
+       line-height: 1.4;
+       margin-top: .5em;
+       margin-bottom: .5em;
+       margin-left: 2em;
+   }
+   &.unstyled {
+      li {
+      list-style-type: none;
+       line-height: inherit;
+       margin-top: 0em;
+       margin-bottom: 0;
+       margin-left: 0;
+   }
+   }
+}
+
 // ___________
 // Tab control
 
@@ -171,17 +191,18 @@ body {
 
 /* unvisited link */
 a:link {
-  color: var(--secondary-cta-color);
+  // color: var(--secondary-cta-color);
 }
 
 /* visited link */
 a:visited {
-  color: var(--secondary-cta-color-dark);
+  // color: var(--secondary-cta-color-dark);
 }
 
 /* mouse over link */
 a:hover {
-  color: var(--secondary-cta-color-dark);
+  // color: var(--secondary-cta-color-dark);
+  text-decoration: underline;
 }
 
 /* selected link */

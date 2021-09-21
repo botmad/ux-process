@@ -236,6 +236,7 @@ const ResearchSubSections = [
         <div class="links-section articles">
           <h6>Articles</h6>
           <ul>
+            <li><a href="https://www.interaction-design.org/literature/article/personas-why-and-how-you-should-use-them">Personas – A Simple Introduction</li>
             <li><a href="https://www.nngroup.com/articles/persona-budgets/">How Much Time Does It Take to Create Personas?</a></li>
             <li><a href="https://www.nngroup.com/articles/persona-scope/">Just-Right Personas: How to Choose the Scope of Your Personas</a></li>
             <li><a href="https://www.nngroup.com/articles/why-personas-fail/">Why Personas Fail</a></li>
@@ -264,6 +265,7 @@ const ResearchSubSections = [
         <div class="links-section articles">
           <h6>Articles</h6>
           <ul>
+            <li><a href="https://www.nngroup.com/articles/first-rule-of-usability-dont-listen-to-users/">First Rule of Usability? Don't Listen to Users</a></li>
             <li><a href="https://www.nngroup.com/articles/field-studies/">Field Studies</a></li>
             <li><a href="https://www.nngroup.com/articles/field-studies-done-right-fast-and-observational/">Field Studies Done Right: Fast and Observational</a></li>
             <li><a href="https://www.nngroup.com/articles/tips-user-research-field/?lm=field-studies&pt=article">27 Tips and Tricks for Conducting Successful User Research in the Field</a></li>

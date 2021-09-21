@@ -2,7 +2,7 @@
 
 	<div class="page-layout-top">
 		<div class="center-vertically">
-			<ul class="process-filters tab-control">
+			<!-- <ul class="process-filters tab-control">
 	            <li class="tab"
 	            :class="{ selected: selectedProductType == 1 }"
 	            @click="selectedProductType = 1; showProcessesForDesigningANewPlatform()">
@@ -18,12 +18,11 @@
 	            @click="selectedProductType = 3; showAll()">
 	        		Show All
 	        	</li>
-	        </ul>
+	        </ul> -->
 	    </div>
 	</div>
 
 	<div class="process-section intro">
-
 		<div class="section-title">
 			<h3>UX in a nutshell - Just enough work with Lean UX Design</h3>
 		</div>
@@ -35,7 +34,7 @@
 		</div>
 		<div class="section-stage stage-1">
 			<h6>Step 1 — Research</h6>
-			<p>Research is conducted with users to define the issues they face and requirements they have for the given situation.</p>
+			<p>Research is conducted <strong>with users</strong> to define the issues they face and requirements they have for the given situation.</p>
 		</div>
 		<div class="section-stage stage-2">
 			<h6>Step 2 — Analysis</h6>
@@ -44,7 +43,6 @@
 		<div class="section-stage stage-3">
 			<h6>Step 3 — Devise</h6>
 			<p>The team then devises a solution to help address that requirement, and notes the assumptions that they are making in the solution.</p>
-			
 		</div>
 		<div class="section-stage stage-4">
 			<h6>Step 4 — Build</h6>
@@ -57,12 +55,28 @@
 		<div class="section-stage stage-6">
 			<h6>Step 6 — Learn</h6>
 			<p>The team take what they have learned from the testing, refine and adapt their prototype, and arrange for further rounds of testing, if required.</p>
-		</div>
-		
+		</div>	
 	</div>
 
 	<div class="process-section heading">
-		<h3 class="heading">UX Design process activities arsenal</h3>
+		<h3 class="heading">How exactly is UX design executed - UX activities arsenal</h3>
+		<ul class="process-filters tab-control">
+            <li class="tab"
+            :class="{ selected: selectedProductType == 1 }"
+            @click="selectedProductType = 1; showProcessesForDesigningANewPlatform()">
+        		New Product
+        	</li>
+            <li class="tab"
+            :class="{ selected: selectedProductType == 2 }"
+            @click="selectedProductType = 2; showProcessesForExpandingAnExistingPlatform()">
+        		Established Product
+        	</li>
+            <li class="tab"
+            :class="{ selected: selectedProductType == 3 }"
+            @click="selectedProductType = 3; showAll()">
+        		Show All
+        	</li>
+        </ul>
 	</div>
 
 	<div class="process-section discovery">

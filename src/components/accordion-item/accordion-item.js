@@ -9,6 +9,8 @@ export default {
 	],
   data () {
     return {
+      moreContentExpanded: false,
+      selectedVideo: 0,
     }
   },
   computed: {
@@ -34,6 +36,15 @@ export default {
     
     endTransition(el) {
       el.style.height = ''
+    },
+
+    showMore(event) {
+
+      if (this.moreContentExpanded) {
+        this.moreContentExpanded = false
+      } else {
+        this.moreContentExpanded = true
+      }
     }
   },
 }

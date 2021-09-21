@@ -40,15 +40,14 @@
 		&:first-child {
 			margin-top: var(--body-layout-top-gap);
 		}
-
-		.section-title {
-			grid-column: 1 / 12;
-		}
-		.section-description {
+		.heading,
+		.process-filters,
+		.section-title,
+		.section-description,
+		.sub-sections {
 			grid-column: 1 / 12;
 		}
 		.sub-sections {
-			grid-column: 1 / 12;
 
 			.accordion {
 			  margin-bottom: calc(var(--body-baseline) * 2);
@@ -96,6 +95,11 @@
 	    content: "Production level UX";
 	}
 
+	//
+	//
+
+	
+
 	// |--------------------|
 	// | RESPONSIVE LAYOUTS |
 	// |--------------------|
@@ -106,8 +110,12 @@
 	@media only screen and (min-width: 521px) {
 
 		.process-section.heading {
-			.heading {
-				grid-column: 1 / 10;
+			.heading,
+			.process-filters {
+				grid-column: 1 / 11;
+			}
+			.process-filters {
+				margin-bottom: calc(var(--body-baseline) * 2);
 			}
 		}
 
@@ -170,7 +178,8 @@
 
 	@media only screen and (min-width: 1020px) {
 		.process-section.heading {
-			.heading {
+			.heading,
+			.process-filters {
 				grid-column: 3 / 10;
 			}
 		}
