@@ -201,27 +201,33 @@ const ResearchSubSections = [
     title: 'User Interviews',
     details: `
       <h6>What is it?</h6>
-      <p>User interviews are a lightweight yet valuable exploratory research method. At their core, interviews are direct 1-1 conversations between researcher and end-user.</p>
+      <p>Direct 1-1 conversations between researcher and end-user.</p>
       <h6>When to do it?</h6>
       <ul>
-        <li>Exploring the problem space - interviews are typically used to uncover details about the factors that impact user behaviour, allowing you to more clearly understand and define the problem to be solved. This can be done before you have a solution or when you want to redefine the problem your solution aims to solve.</li>
-        <li>
-To supplement another method by allowing you to probe deeper into a particular topic. For example, you might ask questions after a usability test, to learn about the self-reported attitudes and causes associated with behaviour you observed during the test.</li>
+        <li>In general, it’s a good practice to hear from your users at any point.</li>
+        <li>Before defining the solutions to identified problems.</li>
+        <li>To supplement another method - For example, asking questions after a usability test.</li>
       </ul>
       <h6>What are you getting out of this?</h6>
-      <p>The purpose of interviews is to gather the necessary intelligence to understand various aspects of your users, such as their goals, motivations, tasks and frustrations. These insights are key to reducing risk and making evidence-informed decisions about how to meet the needs of the user and improve their workflow.</p>
-
-      <p>Once you uncover this information, you might choose to filter your rough notes down and express them in a clearer format, which can help you identify patterns in your findings and communicate them to others - see personas, empathy maps, journey maps</p>
-      <h6>How to do it</h6>
-      <p>While interviews can be defined simply as semi-structured conversations, it takes skill and preparation to do them well. The following can result in inaccurate or inadequate data:</p>
       <ul>
-        <li>Asking users about something they can’t remember accurately.</li>
-        <li>Asking users to predict future behaviour</li>
-        <li>Asking leading questions, which risks priming the participant and influencing their answers.</li>
+        <li>The user is the expert - They have a daily routine, goals and difficulties.</li>
+        <li>Our client's revenue depends on users' meeting their goals - Learn all about it.</li>
+        <li>Eventually, users will leave if you will make (or keep) meeting their goal a frustrating experience - Meet them to empathise with them.</li>
+        <li>There are discrepancies between how users' workflow is exemplified vs. its actual reality. The way people carry their work may include several factors missed by the high-level perception represented by business leaders.</li>
       </ul>
+      <p>⚠️ Interviews are at the core of the UX research and one of the most valuable activities to perform. If you are only acting on one entry from this list, pick this one.</p>
     `,
     more: `
-      <p>Despite many weaknesses, interviews are a valuable method for exploratory user research. Interviews give insights into what users think about a site, an application, a product, or a process. They can point out what site content is memorable, what people feel is important on the site, and what ideas for improvement they may have.</p>
+      <p>Despite many weaknesses, interviews are a valuable method for exploratory user research. The purpose of interviews is to gather the necessary intelligence to understand various aspects of your users, such as their goals, motivations, tasks and frustrations. These insights are key to reducing risk and making evidence-informed decisions about how to meet the needs of the user and improve their workflow.</p>
+
+      <p>Once you uncover this information, you might choose to filter your rough notes down and express them in a clearer format, which can help you identify patterns in your findings and communicate them to others - see personas, empathy maps, journey maps</p>
+      <p>It takes skill and preparation to interview well. The following can result in inadequate data:
+      <ul>
+        <li>Asking the wrong questions - leading questions, for example.</li>
+        <li>Not letting the conversation stray from your script where it’s appropriate.</li>
+        <li>Ignoring subtle non-verbal cues - tone of voice and body language can reveal key insights about the user.</li>      
+      </ul>
+
       <div class="links">
         <div class="links-section articles">  
           <h6>Articles</h6>
@@ -229,8 +235,7 @@ To supplement another method by allowing you to probe deeper into a particular t
             <li><a href="https://www.nngroup.com/articles/user-interviews/">User Interviews: How, When, and Why to Conduct Them</a></li>
             <li><a href="https://www.nngroup.com/articles/why-user-interviews-fail/">Why User Interviews Fail</a></li>
           </ul>
-        </div>
-        
+        </div>     
       </div>
     `,
     videoLinks: [
@@ -508,7 +513,7 @@ const DefinitionSubSections = [
       <p></p>
     `,
     more: `
-      <p>Service blueprints visualize organizational processes in order to optimize how a business delivers a user experience. It is a diagram that shows the relationships between different service components — people, props (physical or digital evidence), and processes — that are directly tied to touchpoints in a specific customer journey./p>
+      <p>Service blueprints visualize organizational processes in order to optimize how a business delivers a user experience. It is a diagram that shows the relationships between different service components — people, props (physical or digital evidence), and processes — that are directly tied to touchpoints in a specific customer journey.</p>
       <h6>Articles</h6>
       <div class="links">
         <div class="links-section articles">

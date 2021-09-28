@@ -5,7 +5,7 @@
 
 .accordion-item-title {
   position: relative;
-  border-bottom: 1px solid var(--divider-soft-color);
+  border-bottom: 1px dotted var(--divider-medium-color);
 
   .accordion-item-trigger {
     width: 100%;
@@ -24,11 +24,11 @@
       height: $size;
       border-right: 1px solid var(--body-txt-color-disabled);
       border-bottom: 1px solid var(--body-txt-color-disabled);
-      transform: translateY(-$size / 4) rotate(45deg);
+      transform: translateY(-$size / 4) rotate(-45deg);
       transition: transform 0.2s ease;
       
       .is-active & {
-        transform: translateY($size / 4) rotate(225deg);
+        transform: translateY($size / 4) rotate(45deg);
       }
     }
   }
@@ -99,8 +99,8 @@
     border-top: thin dotted var(--body-txt-color-disabled);
 }
 
-// ______
-// Videos
+// ____________
+// Video Player
 
 .video-player {
   overflow: hidden;
@@ -108,12 +108,14 @@
   border-radius: 6px;
   background-color: var(--body-bg-color-disabled);
   border: thin solid var(--divider-soft-color);
+  margin-bottom: var(--body-baseline);
 
   iframe {
     width: 50%;
-      height: auto;
+    height: auto;
   }
   .playlist {
+    width: 50%;
     margin: 0;
     font-size: var(--body-sm-font-size);
 

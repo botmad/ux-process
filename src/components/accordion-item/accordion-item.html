@@ -14,20 +14,21 @@
 		<dd v-if="item.active" class="accordion-item-details">
 			<div v-html="item.details" class="accordion-item-details-inner"></div>
 			<hr>
-			<span class="more-content-icon" :class="{ expanded: moreContentExpanded == true }">&#9656;</span>
-			<button
-			v-if='typeof item.more !== "undefined"'
-			class="toggleMoreContent"
-			v-on:click="showMore" >
-				View 
-				<span v-if="moreContentExpanded">Less</span>
-				<span v-else>More</span>
-			</button>
-
+			
+			<div v-if='typeof item.more !== "undefined"'>
+				<span class="more-content-icon" :class="{ expanded: moreContentExpanded == true }">&#9656;</span>
+				<button
+				class="toggleMoreContent"
+				v-on:click="showMore" >
+					View 
+					<span v-if="moreContentExpanded">Less</span>
+					<span v-else>More</span>
+				</button>
+			</div>
 			<div
 			class="accordion-item-details-inner more"
 			:class="{ expanded: moreContentExpanded == true }">
-				
+
 				<div v-html="item.more">
 				</div>
 
@@ -45,8 +46,6 @@
 					</ul>
 				</div>
 			</div>
-
-			
 		</dd>
 	</transition>
 </div>
