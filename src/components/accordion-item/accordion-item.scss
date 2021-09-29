@@ -94,9 +94,25 @@
 
 }
 .accordion-item-details-inner.more.expanded {
-    max-height: 1500px;
+    max-height: 2500px;
     transition: max-height 0.25s ease-in;
     border-top: thin dotted var(--body-txt-color-disabled);
+}
+
+// ______________
+// Example Images
+
+.example-images {
+  .example {
+    .example-image {
+      width: 100%;
+      height: auto;
+    }
+    .source {
+      font-size: var(--body-sm-font-size);
+      text-align: right;
+    }
+  }
 }
 
 // ____________
@@ -108,6 +124,7 @@
   border-radius: 6px;
   background-color: var(--body-bg-color-disabled);
   border: thin solid var(--divider-soft-color);
+  // box-shadow: 0 0 0 1px var(--divider-soft-color) inset;
   margin-bottom: var(--body-baseline);
 
   iframe {
@@ -121,12 +138,26 @@
 
     li {
       margin: 0;
-      padding: var(--space-size-2);
+      padding: 0;
       background-color: var(--body-bg-color-alt);
       border-bottom: thin solid var(--divider-soft-color);
 
+      &.selected {
+        background-color: var(--body-bg-color-active);
+        a {
+          color: var(--body-txt-color);
+        }
+      }
+
       a {
+        display: block;
+        padding: var(--space-size-2);
         color: var(--body-txt-color-secondary);
+
+        &:hover {
+          background-color: var(--body-bg-color-hover);
+          text-decoration: none;;
+        }
       }
     }
   }

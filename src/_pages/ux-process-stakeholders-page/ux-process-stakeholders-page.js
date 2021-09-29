@@ -114,9 +114,9 @@ const DiscoverySubSections = [
       </div>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/5PKmF4hhju8', title: "The Benefits of Benchmarking Your Product's UX",},
-      { url: 'https://www.youtube.com/embed/25_bu4z72h8', title: "Don't Overthink UX ROI",},
-      { url: 'https://www.youtube.com/embed/LO3yE4yeg14', title: "Handle Bad UX Requests Without Saying No",}
+      { id: 0, url: 'https://www.youtube.com/embed/5PKmF4hhju8', title: "The Benefits of Benchmarking Your Product's UX",},
+      { id: 1, url: 'https://www.youtube.com/embed/25_bu4z72h8', title: "Don't Overthink UX ROI",},
+      { id: 2, url: 'https://www.youtube.com/embed/LO3yE4yeg14', title: "Handle Bad UX Requests Without Saying No",}
     ],
     extraClasses: 'ovp established',
   },
@@ -187,11 +187,15 @@ const ResearchSubSections = [
         </div>
       </div>
     `,
+    exampleImages: [
+      { url: 'https://media.nngroup.com/media/editor/2017/12/14/screen-shot-2017-12-14-at-55628-pm.png', source: "https://www.nngroup.com/articles/empathy-mapping/",},
+    ],
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/5wEFrKVTrmA', title: "Turning Analytics Findings Into Usability Studies",},
-      { url: 'https://www.youtube.com/embed/YWCfjy1BeA8', title: "Analytics vs. Quantitative Usability Testing",},
-      { url: 'https://www.youtube.com/embed/4BjCq4SeZEA', title: "In Analytics, What do the Numbers Really Mean?",},
-      { url: 'https://www.youtube.com/embed/KxF2ZZh8O8M', title: "Vanity Metrics in Analytics",}
+      { id: 0, url: 'https://www.youtube.com/embed/5wEFrKVTrmA', title: "Turning Analytics Findings Into Usability Studies",},
+      { id: 1, url: 'https://www.youtube.com/embed/YWCfjy1BeA8', title: "Analytics vs. Quantitative Usability Testing",},
+      { id: 2, url: 'https://www.youtube.com/embed/4BjCq4SeZEA', title: "In Analytics, What do the Numbers Really Mean?",},
+      { id: 3, url: 'https://www.youtube.com/embed/KxF2ZZh8O8M', title: "Vanity Metrics in Analytics",},
+      { id: 4, url: 'https://www.youtube.com/embed/V2uo2HHseMI', title: "How to Interpret User Time Spent and Page Views",}
     ],
     extraClasses: 'established',
   },
@@ -234,13 +238,14 @@ const ResearchSubSections = [
           <ul>
             <li><a href="https://www.nngroup.com/articles/user-interviews/">User Interviews: How, When, and Why to Conduct Them</a></li>
             <li><a href="https://www.nngroup.com/articles/why-user-interviews-fail/">Why User Interviews Fail</a></li>
+            <li><a href="https://www.nngroup.com/articles/pure-method/">Quantifying and Comparing Ease of Use Without Breaking the Bank</a></li>
           </ul>
         </div>     
       </div>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/jy-QGuWE7PQ', title: "The 3 Types of User Interviews: Structured, Semi-Structured, and Unstructured",},
-      { url: 'https://www.youtube.com/embed/FLMKTivaMbU', title: "Intentional Silence as a Moderation Technique",},
+      { id: 0, url: 'https://www.youtube.com/embed/jy-QGuWE7PQ', title: "The 3 Types of User Interviews: Structured, Semi-Structured, and Unstructured",},
+      { id: 1, url: 'https://www.youtube.com/embed/FLMKTivaMbU', title: "Intentional Silence as a Moderation Technique",},
     ],
     extraClasses: 'established',
   },
@@ -260,7 +265,7 @@ const ResearchSubSections = [
       </ul>
     `,
     more: `
-      <p>Field research is conducted in the user’s context and location. Learn the unexpected by leaving the office and observing people in their natural environment.</p>
+      <p>Field research is conducted in the user’s natural environment. Learn the unexpected by leaving the office and observing people in their natural environment.</p>
       <div class="links">
         <div class="links-section articles">
           <h6>Articles</h6>
@@ -274,8 +279,8 @@ const ResearchSubSections = [
       </div>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/GvYjOrwM2fI', title: "4 Steps to Field Studies with Users",},
-      { url: 'https://www.youtube.com/embed/smzwIsi2Zto', title: "Doing Field Studies Remotely",},
+      { id: 0, url: 'https://www.youtube.com/embed/GvYjOrwM2fI', title: "4 Steps to Field Studies with Users",},
+      { id: 1, url: 'https://www.youtube.com/embed/smzwIsi2Zto', title: "Doing Field Studies Remotely",},
     ],
     extraClasses: 'established',
   },
@@ -310,7 +315,7 @@ const ResearchSubSections = [
       </div>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/zaK4xfAqpY0', title: "Survey Response Biases in User Research",},
+      { id: 0, url: 'https://www.youtube.com/embed/zaK4xfAqpY0', title: "Survey Response Biases in User Research",},
     ],
     extraClasses: 'established',
   },
@@ -342,15 +347,20 @@ const ResearchSubSections = [
             <li><a href="https://www.nngroup.com/articles/persona-budgets/">How Much Time Does It Take to Create Personas?</a></li>
             <li><a href="https://www.nngroup.com/articles/persona-scope/">Just-Right Personas: How to Choose the Scope of Your Personas</a></li>
             <li><a href="https://www.nngroup.com/articles/why-personas-fail/">Why Personas Fail</a></li>
+            <li><a href="https://www.nngroup.com/articles/why-personas-fail/">Why Personas Fail</a></li>
           </ul>
         </div>
       </div>
     `,
+    exampleImages: [
+      { url: 'https://storage.googleapis.com/uxfolio/5cdb8a806a30080004cd776a/5cdb8d6c6a30080004cd776b/aOLqrQhzznvdpwQp.jpg', source: "https://uxfol.io/project/04cd776b/Fastis",},
+    ],
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/5wEFrKVTrmA', title: "What Are Personas and Why Should I Care?",},
-      { url: 'https://www.youtube.com/embed/YWCfjy1BeA8', title: "Why Personas Fail",},
-      { url: 'https://www.youtube.com/embed/4BjCq4SeZEA', title: "Bringing Personas to Agile",},
-      { url: 'https://www.youtube.com/embed/KxF2ZZh8O8M', title: "Jobs-to-Be-Done vs. Personas",}
+      { id: 0, url: 'https://www.youtube.com/embed/5wEFrKVTrmA', title: "What Are Personas and Why Should I Care?",},
+      { id: 1, url: 'https://www.youtube.com/embed/YWCfjy1BeA8', title: "Why Personas Fail",},
+      { id: 2, url: 'https://www.youtube.com/embed/4BjCq4SeZEA', title: "Bringing Personas to Agile",},
+      { id: 3, url: 'https://www.youtube.com/embed/KxF2ZZh8O8M', title: "Jobs-to-Be-Done vs. Personas",},
+      { id: 3, url: 'https://www.youtube.com/embed/XVaiNayTi8U', title: "How to Choose the Scope of Your Personas",}
     ],
     extraClasses: 'ovp mvp new established',
   },
@@ -403,19 +413,20 @@ const ResearchSubSections = [
     `,
     more: `
       <p>In order to advocate on behalf of the user, not only must we deeply understand our users, but we must also help our colleagues understand them and prioritise their needs. An empathy map is a tool used to articulate what we know about a particular type of user by visualising their attitudes and behaviours.</p>
-      <div class="links">
-        <div class="links-section articles">
-          <h6>Articles</h6>
-          <ul>
-            <li><a href="https://www.nngroup.com/articles/empathy-mapping/">Empathy Mapping: The First Step in Design Thinking</a></li>
-            <li><a href="https://www.nngroup.com/articles/sympathy-vs-empathy-ux/">Sympathy vs. Empathy in UX</a></li>
-          </ul>
-        </div>
-      </div>
     `,
+    articles: `
+      <h6>Articles</h6>
+      <ul>
+        <li><a href="https://www.nngroup.com/articles/empathy-mapping/">Empathy Mapping: The First Step in Design Thinking</a></li>
+        <li><a href="https://www.nngroup.com/articles/sympathy-vs-empathy-ux/">Sympathy vs. Empathy in UX</a></li>
+      </ul>
+    `,
+    exampleImages: [
+      { url: 'https://media.nngroup.com/media/editor/2017/12/14/screen-shot-2017-12-14-at-55628-pm.png', source: "https://www.nngroup.com/articles/empathy-mapping/",},
+    ],
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/9HwpR3Njq00', title: "How to Empathy Map",},
-      { url: 'https://www.youtube.com/embed/ZnkvVEbLFg4', title: "Most Important Skill Required for UX Professionals",},
+      { id: 0, url: 'https://www.youtube.com/embed/9HwpR3Njq00', title: "How to Empathy Map",},
+      { id: 1, url: 'https://www.youtube.com/embed/ZnkvVEbLFg4', title: "Most Important Skill Required for UX Professionals",},
     ],
     extraClasses: 'ovp mvp new established',
   },
@@ -453,8 +464,8 @@ const IdeationSubSections = [
       <p>Develop, share and exchange ideas and categorise them according to product and business needs. Mix and match ideas and iterate on the process.</p>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/amE1nGiW-jU', title: "How to Get Stakeholders to Sketch: A Magic Formula",},
-      { url: 'https://www.youtube.com/embed/7fZNTIAozmk', title: "Pencils vs. Pixels for UI Protyping and Sketching",},
+      { id: 0, url: 'https://www.youtube.com/embed/amE1nGiW-jU', title: "How to Get Stakeholders to Sketch: A Magic Formula",},
+      { id: 1, url: 'https://www.youtube.com/embed/7fZNTIAozmk', title: "Pencils vs. Pixels for UI Protyping and Sketching",},
     ],
     extraClasses: 'ovp mvp new established',
   },
@@ -496,7 +507,7 @@ const DefinitionSubSections = [
       </div>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/dmlFRCZI9gQ', title: "Scenario Mapping for Design Exploration",},
+      { id: 0, url: 'https://www.youtube.com/embed/dmlFRCZI9gQ', title: "Scenario Mapping for Design Exploration",},
     ],
     extraClasses: 'ovp mvp new',
   },
@@ -524,10 +535,10 @@ const DefinitionSubSections = [
       </div>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/z-BfM-fsBEY', title: "The 5 Steps to Service Blueprinting",},
-      { url: 'https://www.youtube.com/embed/bCRBaD2_dCQ', title: "4 Key Components of Service Blueprints",},
-      { url: 'https://www.youtube.com/embed/6FdFIYKxeDM', title: "When and Why UX Practitioners Use Service Blueprintsg",},
-      { url: 'https://www.youtube.com/embed/ubKp3vRJIJg', title: "Service Blueprinting FAQ",},
+      { id: 0, url: 'https://www.youtube.com/embed/z-BfM-fsBEY', title: "The 5 Steps to Service Blueprinting",},
+      { id: 1, url: 'https://www.youtube.com/embed/bCRBaD2_dCQ', title: "4 Key Components of Service Blueprints",},
+      { id: 2, url: 'https://www.youtube.com/embed/6FdFIYKxeDM', title: "When and Why UX Practitioners Use Service Blueprintsg",},
+      { id: 3, url: 'https://www.youtube.com/embed/ubKp3vRJIJg', title: "Service Blueprinting FAQ",},
     ],
     extraClasses: 'ovp mvp new established',
   },
@@ -543,24 +554,26 @@ const DefinitionSubSections = [
       <h6>What are you getting out of this?</h6>
       <p></p>
     `,
+    exampleImages: [
+      { url: 'https://media.nngroup.com/media/editor/2020/07/30/nng-cjm.png', source: "https://www.nngroup.com/articles/journey-mapping-101/",},
+    ],
     more: `
       <p>A journey map is a visualisation of the process that a person goes through in order to accomplish a goal. In its most basic form it's an actions timeline that is often is fleshed out with user thoughts and emotions in order to create a narrative.</p>
-      <div class="links">
-        <div class="links-section articles">
-          <h6>Articles</h6>
-          <ul>
-            <li><a href="https://www.nngroup.com/articles/journey-mapping-101/">Journey Mapping 101</a></li>
-            <li><a href="https://www.nngroup.com/articles/customer-journey-mapping/">When and How to Create Customer Journey Maps</a></li>
-            <li><a href="https://www.nngroup.com/articles/journey-mapping-faq/">Journey Mapping: 9 Frequently Asked Questions</a></li>
-          </ul>
-        </div>
-      </div>
+    `,
+    articles: `
+      <h6>Articles</h6>
+      <ul>
+        <li><a href="https://www.nngroup.com/articles/research-journey-mapping/">How to Conduct Research for Customer Journey-Mapping</a></li>
+        <li><a href="https://www.nngroup.com/articles/journey-mapping-101/">Journey Mapping 101</a></li>
+        <li><a href="https://www.nngroup.com/articles/customer-journey-mapping/">When and How to Create Customer Journey Maps</a></li>
+        <li><a href="https://www.nngroup.com/articles/journey-mapping-faq/">Journey Mapping: 9 Frequently Asked Questions</a></li>
+      </ul>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/nQQBeV2iP7A', title: "Journey Mapping: 2 Decisions to Make Before You Begin",},
-      { url: 'https://www.youtube.com/embed/CquXSGaTjk8', title: "How to Conduct Research for Customer Journey Mapping",},
-      { url: 'https://www.youtube.com/embed/M0I5gdoon6o', title: "The 5 Steps to Customer Journey Mapping",},
-      { url: 'https://www.youtube.com/embed/2W13ext26kQ', title: "Customer Journey Mapping 101",},
+      { id: 0, url: 'https://www.youtube.com/embed/nQQBeV2iP7A', title: "Journey Mapping: 2 Decisions to Make Before You Begin",},
+      { id: 1, url: 'https://www.youtube.com/embed/CquXSGaTjk8', title: "How to Conduct Research for Customer Journey Mapping",},
+      { id: 2, url: 'https://www.youtube.com/embed/M0I5gdoon6o', title: "The 5 Steps to Customer Journey Mapping",},
+      { id: 3, url: 'https://www.youtube.com/embed/2W13ext26kQ', title: "Customer Journey Mapping 101",},
     ],
     extraClasses: 'ovp mvp new established',
   },
@@ -591,10 +604,10 @@ const DefinitionSubSections = [
       </div>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/TbEfjaE94sU', title: "Card Sorting: How to Best Organize Product Offerings",},
-      { url: 'https://www.youtube.com/embed/0tNPT6X9Lhc', title: "Open vs. Closed Card Sorting",},
-      { url: 'https://www.youtube.com/embed/ax0_rqC4v44', title: "How to Avoid Bias in Card Sorting",},
-      { url: 'https://www.youtube.com/embed/P0WDO76300Q', title: "Tree Testing to Evaluate Information Architecture Categories",},
+      { id: 0, url: 'https://www.youtube.com/embed/TbEfjaE94sU', title: "Card Sorting: How to Best Organize Product Offerings",},
+      { id: 1, url: 'https://www.youtube.com/embed/0tNPT6X9Lhc', title: "Open vs. Closed Card Sorting",},
+      { id: 2, url: 'https://www.youtube.com/embed/ax0_rqC4v44', title: "How to Avoid Bias in Card Sorting",},
+      { id: 3, url: 'https://www.youtube.com/embed/P0WDO76300Q', title: "Tree Testing to Evaluate Information Architecture Categories",},
     ],
     extraClasses: 'ovp mvp new',
   },
@@ -657,7 +670,7 @@ const DefinitionSubSections = [
       </div>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/P0WDO76300Q', title: "Tree Testing to Evaluate Information Architecture Categories",},
+      { id: 0, url: 'https://www.youtube.com/embed/P0WDO76300Q', title: "Tree Testing to Evaluate Information Architecture Categories",},
     ],
     extraClasses: 'ovp mvp new established',
   },
@@ -717,10 +730,10 @@ const ExecutionSubSections = [
       </div>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/miVcrftnhzM', title: "Prototypes vs Wireframes in UX Projects",},
-      { url: 'https://www.youtube.com/embed/fw42BYQmuJ4', title: "Paper Prototyping 101",},
-      { url: 'https://www.youtube.com/embed/LtED1dBcSVI', title: "Just-Enough Prototypes Make Communicating Specs More Successful",},
-      { url: 'https://www.youtube.com/embed/k63MiRRszLk', title: "Presenting Low-Fidelity Prototypes to Stakeholders",},
+      { id: 0, url: 'https://www.youtube.com/embed/miVcrftnhzM', title: "Prototypes vs Wireframes in UX Projects",},
+      { id: 1, url: 'https://www.youtube.com/embed/fw42BYQmuJ4', title: "Paper Prototyping 101",},
+      { id: 2, url: 'https://www.youtube.com/embed/LtED1dBcSVI', title: "Just-Enough Prototypes Make Communicating Specs More Successful",},
+      { id: 3, url: 'https://www.youtube.com/embed/k63MiRRszLk', title: "Presenting Low-Fidelity Prototypes to Stakeholders",},
     ],
     extraClasses: 'ovp mvp new established',
   },
@@ -751,17 +764,17 @@ const ExecutionSubSections = [
       </div>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/6Bw0n6Jvwxk', title: "Heuristic Evaluation of User Interfaces",},
-      { url: 'https://www.youtube.com/embed/cTtc90jCULU', title: "Usability Heuristic 1: Visibility of System Status",},
-      { url: 'https://www.youtube.com/embed/0TAt9Pln51g', title: "Usability Heuristic 2: Match Between the System and the Real World",},
-      { url: 'https://www.youtube.com/embed/MXuk-fdbr0A', title: "Usability Heuristic 3: User Control & Freedom",},
-      { url: 'https://www.youtube.com/embed/Ibndy9KLOSQ', title: "Usability Heuristic 4: Consistency and Standards",},
-      { url: 'https://www.youtube.com/embed/imS9s1DUY-I', title: "Usability Heuristic 5: Error Prevention",},
-      { url: 'https://www.youtube.com/embed/6glQPp6q4Jc', title: "Usability Heuristic 6: Recognition vs. Recall in User Interfaces",},
-      { url: 'https://www.youtube.com/embed/LoTdRTBB8BQ', title: "Usability Heuristic 7: Flexibility and Efficiency of Use",},
-      { url: 'https://www.youtube.com/embed/ZgbRmeWDgd0', title: "Usability Heuristic 8: Aesthetic and Minimalist Design",},
-      { url: 'https://www.youtube.com/embed/cCun-ReLTFI', title: "Usability Heuristic 9: Help Users Recognize, Diagnose, and Recover from Errors",},
-      { url: 'https://www.youtube.com/embed/iIQVRzatb50', title: "Usability Heuristic 10: Help and Documentation",},
+      { id: 0, url: 'https://www.youtube.com/embed/6Bw0n6Jvwxk', title: "Heuristic Evaluation of User Interfaces",},
+      { id: 1, url: 'https://www.youtube.com/embed/cTtc90jCULU', title: "Usability Heuristic 1: Visibility of System Status",},
+      { id: 2, url: 'https://www.youtube.com/embed/0TAt9Pln51g', title: "Usability Heuristic 2: Match Between the System and the Real World",},
+      { id: 3, url: 'https://www.youtube.com/embed/MXuk-fdbr0A', title: "Usability Heuristic 3: User Control & Freedom",},
+      { id: 4, url: 'https://www.youtube.com/embed/Ibndy9KLOSQ', title: "Usability Heuristic 4: Consistency and Standards",},
+      { id: 5, url: 'https://www.youtube.com/embed/imS9s1DUY-I', title: "Usability Heuristic 5: Error Prevention",},
+      { id: 6, url: 'https://www.youtube.com/embed/6glQPp6q4Jc', title: "Usability Heuristic 6: Recognition vs. Recall in User Interfaces",},
+      { id: 7, url: 'https://www.youtube.com/embed/LoTdRTBB8BQ', title: "Usability Heuristic 7: Flexibility and Efficiency of Use",},
+      { id: 8, url: 'https://www.youtube.com/embed/ZgbRmeWDgd0', title: "Usability Heuristic 8: Aesthetic and Minimalist Design",},
+      { id: 9, url: 'https://www.youtube.com/embed/cCun-ReLTFI', title: "Usability Heuristic 9: Help Users Recognize, Diagnose, and Recover from Errors",},
+      { id: 10, url: 'https://www.youtube.com/embed/iIQVRzatb50', title: "Usability Heuristic 10: Help and Documentation",},
     ],
     extraClasses: 'ovp mvp new established',
   },
@@ -795,10 +808,10 @@ const ExecutionSubSections = [
       </div>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/v8JJrDvQDF4', title: "User Testing: Why & How (Jakob Nielsen)",},
-      { url: 'https://www.youtube.com/embed/V-An4Jfplew', title: "User Testing Facilitation Techniques",},
-      { url: 'https://www.youtube.com/embed/ZkDafFDtJ1Y', title: "Running a Remote Usability Test, Part 1",},
-      { url: 'https://www.youtube.com/embed/lYE8I311qG4', title: "Running a Remote Usability Test, Part 2",},
+      { id: 0, url: 'https://www.youtube.com/embed/v8JJrDvQDF4', title: "User Testing: Why & How (Jakob Nielsen)",},
+      { id: 1, url: 'https://www.youtube.com/embed/V-An4Jfplew', title: "User Testing Facilitation Techniques",},
+      { id: 2, url: 'https://www.youtube.com/embed/ZkDafFDtJ1Y', title: "Running a Remote Usability Test, Part 1",},
+      { id: 3, url: 'https://www.youtube.com/embed/lYE8I311qG4', title: "Running a Remote Usability Test, Part 2",},
     ],
     extraClasses: 'ovp mvp new established',
   },
@@ -830,10 +843,10 @@ const ExecutionSubSections = [
       </div>
     `,
     videoLinks: [
-      { url: 'https://www.youtube.com/embed/m000dSSXvDY', title: "A/B Testing 101",},
-      { url: 'https://www.youtube.com/embed/TYrWpZdcujU', title: "Don't A/B Test Yourself Off a Cliff",},
-      { url: 'https://www.youtube.com/embed/6-j5My77tIU', title: "Is A/B Testing Faster than Usability Testing at Getting Results?",},
-      { url: 'https://www.youtube.com/embed/fp6UWlZm1jk', title: "A/B Testing vs. Multivariate Testing for Design Optimization",},
+      { id: 0, url: 'https://www.youtube.com/embed/m000dSSXvDY', title: "A/B Testing 101",},
+      { id: 1, url: 'https://www.youtube.com/embed/TYrWpZdcujU', title: "Don't A/B Test Yourself Off a Cliff",},
+      { id: 2, url: 'https://www.youtube.com/embed/6-j5My77tIU', title: "Is A/B Testing Faster than Usability Testing at Getting Results?",},
+      { id: 3, url: 'https://www.youtube.com/embed/fp6UWlZm1jk', title: "A/B Testing vs. Multivariate Testing for Design Optimization",},
     ],
     extraClasses: 'ovp mvp new established',
   },

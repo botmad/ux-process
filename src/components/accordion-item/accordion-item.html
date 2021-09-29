@@ -20,30 +20,46 @@
 				<button
 				class="toggleMoreContent"
 				v-on:click="showMore" >
-					View 
-					<span v-if="moreContentExpanded">Less</span>
-					<span v-else>More</span>
+					<span v-if="moreContentExpanded">Hide Details</span>
+					<span v-else>View Details</span>
 				</button>
 			</div>
-			<div
-			class="accordion-item-details-inner more"
-			:class="{ expanded: moreContentExpanded == true }">
+
+			<div class="accordion-item-details-inner more" :class="{ expanded: moreContentExpanded == true }">
 
 				<div v-html="item.more">
 				</div>
 
-				<div
-				v-if='item.videoLinks'
-				class="video-player">
-					
-					<iframe :name='"playlist-" + _uid' width="560" height="315" :src="item.videoLinks[0].url" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-					</iframe>
+				<div v-if='item.exampleImages' class="example-images">
+					<h6>Example</h6>
+					<figure v-for="item in item.exampleImages" class="example">
+					    <img :src="item.url" alt="example" class="example-image">
+					    <figcaption class="source"><a :href="item.source">Source</a></figcaption>
+					</figure>
+					<hr>
+				</div>
 
-					<ul class="playlist">
-						<li v-for="item in item.videoLinks">
-							<a :target='"playlist-" + _uid' :href="item.url">{{item.title}}</a>
-						</li>
-					</ul>
+				<div v-if='item.articles' v-html="item.articles">
+				</div>
+
+
+				<div v-if='item.videoLinks' class="videos">
+					<h6>Short Videos</h6>
+					<div class="video-player">
+						
+						<iframe :name='"playlist-" + _uid' width="560" height="315" :src="item.videoLinks[0].url" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+						</iframe>
+
+						<ul class="playlist">
+							<li
+							v-for="item in item.videoLinks"
+							:id='"video-" + item.id'
+							:class='{ selected: selectedVideo == item.id }'
+	            			@click="selectedVideo = item.id">
+								<a :target='"playlist-" + _uid' :href="item.url">{{item.title}}</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</dd>
