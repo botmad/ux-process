@@ -13,7 +13,8 @@
 	.page-layout-top {
 		position: relative;
 		grid-column: 2 / 14;
-		height: var(--body-layout-top-gap);
+		// height: var(--body-layout-top-gap);
+		height: calc(var(--body-baseline) * 4);
 		display: grid;
 	    grid-template-columns: repeat(10, 1fr);
 	    grid-gap: 0 var(--gutter);
@@ -28,8 +29,6 @@
 			}
 		}
 	}
-
-
 
 	.process-section {
 		position: relative;
@@ -46,6 +45,11 @@
 		.section-description,
 		.sub-sections {
 			grid-column: 1 / 12;
+		}
+		.section-description {
+			.diagram {
+				width: 100%;
+			}
 		}
 		.sub-sections {
 
@@ -257,7 +261,7 @@
 	// |---------------|
 
 	.process-section.intro {
-		margin-bottom: calc(var(--body-baseline) * 3);
+		margin-bottom: calc(var(--body-baseline) * 2);
 
 
 		.section-title,
@@ -268,6 +272,9 @@
 		}
 		.section-description {
 			margin-bottom: 0;
+		}
+		&.header {
+			margin-bottom: calc(var(--body-baseline) * 1);
 		}
 	}
 

@@ -902,6 +902,7 @@ export default {
       executionSubSections: ExecutionSubSections,
       deliverySection: DeliverySection,
       deliverySubSections: DeliverySubSections,
+      selectedDesignFramework: 0,
       selectedProductType: 3,
     };
   },

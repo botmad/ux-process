@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="776px" height="330px" viewBox="0 0 776 330" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>double-diamond</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="776" height="330"></rect>
+        <circle id="path-3" cx="378.5" cy="207" r="15"></circle>
+        <circle id="path-4" cx="752.5" cy="207" r="23"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="double-diamond">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+            <rect id="Rectangle" fill="#D1D2D4" mask="url(#mask-2)" x="0" y="90.3136364" width="189" height="233.372727"></rect>
+            <rect id="Rectangle" fill="#D1D2D4" mask="url(#mask-2)" x="194" y="90.3136364" width="183" height="233.372727"></rect>
+            <rect id="Rectangle" fill="#D1D2D4" mask="url(#mask-2)" x="382" y="90" width="182" height="233.372727"></rect>
+            <rect id="Rectangle" fill="#D1D2D4" mask="url(#mask-2)" x="569" y="90.3136364" width="185" height="233.372727"></rect>
+            <g id="Group-3" mask="url(#mask-2)">
+                <g transform="translate(-2.500000, 115.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="1.5" y="0" width="20" height="71"></rect>
+                    <text id="Problem" fill="none" transform="translate(10.000000, 35.500000) rotate(-90.000000) translate(-10.000000, -35.500000) " font-family="SFProDisplay-Bold, SF Pro Display" font-size="17" font-weight="bold" letter-spacing="0.081053">
+                        <tspan x="-23" y="41.5" fill="#EC1C22">Problem</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group" mask="url(#mask-2)">
+                <g transform="translate(356.500000, 102.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="2" y="0" width="40" height="82"></rect>
+                    <text id="Problem-Definition" fill="none" transform="translate(20.000000, 40.000000) rotate(-90.000000) translate(-20.000000, -40.000000) " font-family="SFProDisplay-Bold, SF Pro Display" font-size="17" font-weight="bold" letter-spacing="0.081053">
+                        <tspan x="-19.5" y="36" fill="#EC1C22">Problem </tspan>
+                        <tspan x="-19.5" y="56" fill="#EC1C22">Definition</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-2" mask="url(#mask-2)">
+                <g transform="translate(356.500000, 232.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="1.5" y="0" width="40" height="62"></rect>
+                    <text id="Design-Brief" fill="none" transform="translate(20.000000, 33.000000) rotate(-90.000000) translate(-20.000000, -33.000000) " font-family="SFProDisplay-Bold, SF Pro Display" font-size="17" font-weight="bold" letter-spacing="0.081053">
+                        <tspan x="-5.04930628" y="29" fill="#EC1C22">Design </tspan>
+                        <tspan x="12.4550866" y="49" fill="#EC1C22">Brief</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-4" mask="url(#mask-2)">
+                <g transform="translate(733.500000, 98.000000)">
+                    <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" x="0.5" y="0" width="20" height="79"></rect>
+                    <text id="Solutions" fill="none" transform="translate(10.000000, 39.500000) rotate(-90.000000) translate(-10.000000, -39.500000) " font-family="SFProDisplay-Bold, SF Pro Display" font-size="17" font-weight="bold" letter-spacing="0.081053">
+                        <tspan x="-27" y="45.5" fill="#EC1C22">Solutions</tspan>
+                    </text>
+                </g>
+            </g>
+            <text id="Discover" mask="url(#mask-2)" font-family="SFProDisplay-Heavy, SF Pro Display" font-size="20" font-weight="600" letter-spacing="-0.610526" fill="#EC1C22">
+                <tspan x="0" y="64">Discover</tspan>
+            </text>
+            <text id="Define" mask="url(#mask-2)" font-family="SFProDisplay-Heavy, SF Pro Display" font-size="20" font-weight="600" letter-spacing="-0.610526" fill="#EC1C22">
+                <tspan x="189" y="64">Define</tspan>
+            </text>
+            <text id="Develop" mask="url(#mask-2)" font-family="SFProDisplay-Heavy, SF Pro Display" font-size="20" font-weight="600" letter-spacing="-0.610526" fill="#EC1C22">
+                <tspan x="382" y="64">Develop</tspan>
+            </text>
+            <text id="Deliver" mask="url(#mask-2)" font-family="SFProDisplay-Heavy, SF Pro Display" font-size="20" font-weight="600" letter-spacing="-0.610526" fill="#EC1C22">
+                <tspan x="567" y="64">Deliver</tspan>
+            </text>
+            <text id="insight-into-the-pro" mask="url(#mask-2)" font-family="NewYorkSmall-Medium, New York Small" font-size="16" font-weight="400" letter-spacing="-0.788421" fill="#7A7A7E">
+                <tspan x="0" y="82">insight into the problem</tspan>
+            </text>
+            <text id="The-area-to-focus-up" mask="url(#mask-2)" font-family="NewYorkSmall-Medium, New York Small" font-size="16" font-weight="400" letter-spacing="-0.788421" fill="#7A7A7E">
+                <tspan x="189" y="82">The area to focus upon</tspan>
+            </text>
+            <text id="Potential-solutions" mask="url(#mask-2)" font-family="NewYorkSmall-Medium, New York Small" font-size="16" font-weight="400" letter-spacing="-0.788421" fill="#7A7A7E">
+                <tspan x="382" y="82">Potential solutions</tspan>
+            </text>
+            <text id="Solutions-that-work" mask="url(#mask-2)" font-family="NewYorkSmall-Medium, New York Small" font-size="16" font-weight="400" letter-spacing="-0.788421" fill="#7A7A7E">
+                <tspan x="567" y="82">Solutions that work</tspan>
+            </text>
+            <text id="Design-the-right-thi" mask="url(#mask-2)" font-family="SFProDisplay-Regular, SF Pro Display" font-size="16" font-weight="normal" letter-spacing="0.0762851765" fill="#EC1C22">
+                <tspan x="0.5" y="25">Design the right thing </tspan>
+                <tspan x="148.434247" y="25">(Foundational UX)</tspan>
+            </text>
+            <text id="Design-things-right" mask="url(#mask-2)" font-family="SFProDisplay-Regular, SF Pro Display" font-size="16" font-weight="normal" letter-spacing="0.0762851765" fill="#EC1C22">
+                <tspan x="386" y="25">Design things right </tspan>
+                <tspan x="516.228829" y="25">(Production level UX)</tspan>
+            </text>
+            <path id="Line" d="M368,29 L377,33.5 L368,38 L368,34 L0,34 L0,33 L368,33 L368,29 Z" fill="#EC1C22" fill-rule="nonzero"></path>
+            <path id="Line-2" d="M745,29 L754,33.5 L745,38 L745,34 L382,34 L382,33 L745,33 L745,29 Z" fill="#EC1C22" fill-rule="nonzero"></path>
+            <path d="M6.1259377,207 L166.098642,111.819651 C182.483936,102.07075 202.890548,102.07075 219.275843,111.819651 L379.248547,207 L379.248547,207 L219.275843,302.180349 C202.890548,311.92925 182.483936,311.92925 166.098642,302.180349 L6.1259377,207 L6.1259377,207 Z" id="Rectangle" stroke="#EC1C22" stroke-width="5" fill="#FFFFFF" stroke-linejoin="round" mask="url(#mask-2)"></path>
+            <path d="M379.003329,207 L538.976033,111.819651 C555.361327,102.07075 575.767939,102.07075 592.153234,111.819651 L752.125938,207 L752.125938,207 L592.153234,302.180349 C575.767939,311.92925 555.361327,311.92925 538.976033,302.180349 L379.003329,207 L379.003329,207 Z" id="Rectangle" stroke="#EC1C22" stroke-width="5" fill="#FFFFFF" stroke-linejoin="round" mask="url(#mask-2)"></path>
+            <g id="Oval" mask="url(#mask-2)" stroke-linejoin="square">
+                <circle stroke="#FFFFFF" stroke-width="8" fill="#EC1C22" fill-rule="evenodd" cx="378.5" cy="207" r="11"></circle>
+                <circle stroke="#EC1C22" stroke-width="5" cx="378.5" cy="207" r="12.5"></circle>
+            </g>
+            <circle id="Oval" stroke="#FFFFFF" stroke-width="3" fill="#EC1C22" mask="url(#mask-2)" cx="9" cy="207" r="10.5"></circle>
+            <g id="Oval" mask="url(#mask-2)" stroke-linejoin="square">
+                <circle stroke="#FFFFFF" stroke-width="14" fill="#EC1C22" fill-rule="evenodd" cx="752.5" cy="207" r="16"></circle>
+                <circle stroke="#EC1C22" stroke-width="9" cx="752.5" cy="207" r="18.5"></circle>
+                <circle stroke="#FFFFFF" stroke-width="7" cx="752.5" cy="207" r="19.5"></circle>
+                <circle stroke="#EC1C22" stroke-width="2" cx="752.5" cy="207" r="22"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

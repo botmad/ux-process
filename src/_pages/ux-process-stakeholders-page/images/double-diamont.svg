@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="798px" height="545px" viewBox="0 0 798 545" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>double-diamont</title>
+    <defs>
+        <circle id="path-1" cx="400.5" cy="299" r="15"></circle>
+        <circle id="path-2" cx="774.5" cy="299" r="23"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="double-diamont">
+            <rect id="Rectangle" fill="#FFFFFF" x="0" y="0" width="798" height="545"></rect>
+            <text id="Foundational-UX" font-family="NewYorkSmall-Bold, New York Small" font-size="16" font-weight="bold" letter-spacing="-0.688421" fill="#7A7A7E">
+                <tspan x="145.756908" y="523">Foundational UX</tspan>
+            </text>
+            <text id="Production-level-UX" font-family="NewYorkSmall-Bold, New York Small" font-size="16" font-weight="bold" letter-spacing="-0.688421" fill="#7A7A7E">
+                <tspan x="517.797812" y="523">Production level UX</tspan>
+            </text>
+            <rect id="Rectangle" fill="#D1D2D4" x="22" y="100" width="186" height="398"></rect>
+            <rect id="Rectangle" fill="#D1D2D4" x="213" y="100" width="186" height="398"></rect>
+            <rect id="Rectangle" fill="#D1D2D4" x="404" y="100" width="186" height="398"></rect>
+            <rect id="Rectangle" fill="#D1D2D4" x="595" y="100" width="181" height="398"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="21" y="186" width="20" height="71"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="388" y="105" width="20" height="152"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="388" y="339" width="20" height="102"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" x="756" y="178" width="20" height="79"></rect>
+            <text id="Problem" transform="translate(29.500000, 221.500000) rotate(-90.000000) translate(-29.500000, -221.500000) " font-family="SFProDisplay-Bold, SF Pro Display" font-size="17" font-weight="bold" letter-spacing="0.081053" fill="#EC1C22">
+                <tspan x="-3.5" y="227.5">Problem</tspan>
+            </text>
+            <text id="Problem-Definition" transform="translate(396.500000, 182.000000) rotate(-90.000000) translate(-396.500000, -182.000000) " font-family="SFProDisplay-Bold, SF Pro Display" font-size="17" font-weight="bold" letter-spacing="0.081053" fill="#EC1C22">
+                <tspan x="324" y="188">Problem Definition</tspan>
+            </text>
+            <text id="Solutions" transform="translate(765.500000, 217.500000) rotate(-90.000000) translate(-765.500000, -217.500000) " font-family="SFProDisplay-Bold, SF Pro Display" font-size="17" font-weight="bold" letter-spacing="0.081053" fill="#EC1C22">
+                <tspan x="728.5" y="223.5">Solutions</tspan>
+            </text>
+            <text id="Design-Brief" transform="translate(397.000000, 391.000000) rotate(-90.000000) translate(-397.000000, -391.000000) " font-family="SFProDisplay-Bold, SF Pro Display" font-size="17" font-weight="bold" letter-spacing="0.081053" fill="#EC1C22">
+                <tspan x="349.962911" y="397">Design Brief</tspan>
+            </text>
+            <text id="Discover" font-family="SFProDisplay-Heavy, SF Pro Display" font-size="20" font-weight="600" letter-spacing="-0.610526" fill="#EC1C22">
+                <tspan x="22" y="71">Discover</tspan>
+            </text>
+            <text id="Define" font-family="SFProDisplay-Heavy, SF Pro Display" font-size="20" font-weight="600" letter-spacing="-0.610526" fill="#EC1C22">
+                <tspan x="211" y="71">Define</tspan>
+            </text>
+            <text id="Develop" font-family="SFProDisplay-Heavy, SF Pro Display" font-size="20" font-weight="600" letter-spacing="-0.610526" fill="#EC1C22">
+                <tspan x="401" y="71">Develop</tspan>
+            </text>
+            <text id="Deliver" font-family="SFProDisplay-Heavy, SF Pro Display" font-size="20" font-weight="600" letter-spacing="-0.610526" fill="#EC1C22">
+                <tspan x="589" y="71">Deliver</tspan>
+            </text>
+            <text id="insight-into-the-pro" font-family="NewYorkSmall-Medium, New York Small" font-size="16" font-weight="400" letter-spacing="-0.788421" fill="#7A7A7E">
+                <tspan x="22" y="89">insight into the problem</tspan>
+            </text>
+            <text id="The-area-to-focus-up" font-family="NewYorkSmall-Medium, New York Small" font-size="16" font-weight="400" letter-spacing="-0.788421" fill="#7A7A7E">
+                <tspan x="211" y="89">The area to focus upon</tspan>
+            </text>
+            <text id="Potential-solutions" font-family="NewYorkSmall-Medium, New York Small" font-size="16" font-weight="400" letter-spacing="-0.788421" fill="#7A7A7E">
+                <tspan x="401" y="89">Potential solutions</tspan>
+            </text>
+            <text id="Solutions-that-work" font-family="NewYorkSmall-Medium, New York Small" font-size="16" font-weight="400" letter-spacing="-0.788421" fill="#7A7A7E">
+                <tspan x="589" y="89">Solutions that work</tspan>
+            </text>
+            <text id="Design-the-right-thi" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" letter-spacing="0.0953564706" fill="#EC1C22">
+                <tspan x="119.639555" y="32">Design the right thing</tspan>
+            </text>
+            <text id="Design-things-right" font-family="SFProDisplay-Regular, SF Pro Display" font-size="20" font-weight="normal" letter-spacing="0.0953564706" fill="#EC1C22">
+                <tspan x="513.205442" y="32">Design things right</tspan>
+            </text>
+            <line x1="22.5" y1="40.5" x2="398.5" y2="40.5" id="Line" stroke="#EC1C22" stroke-linecap="square"></line>
+            <line x1="408.5" y1="40.5" x2="775.5" y2="40.5" id="Line-2" stroke="#EC1C22" stroke-linecap="square"></line>
+            <path d="M18,299 L170.414845,124.017081 C189.277534,102.361392 222.124169,100.097219 243.779857,118.959908 C245.579646,120.527573 247.269366,122.217292 248.83703,124.017081 L401.251875,299 L401.251875,299 L248.83703,473.982919 C229.974341,495.638608 197.127706,497.902781 175.472018,479.040092 C173.672229,477.472427 171.98251,475.782708 170.414845,473.982919 L18,299 L18,299 Z" id="Rectangle" stroke="#EC1C22" stroke-width="5" fill="#FFFFFF"></path>
+            <path d="M401,299 L553.414845,124.017081 C572.277534,102.361392 605.124169,100.097219 626.779857,118.959908 C628.579646,120.527573 630.269366,122.217292 631.83703,124.017081 L784.251875,299 L784.251875,299 L631.83703,473.982919 C612.974341,495.638608 580.127706,497.902781 558.472018,479.040092 C556.672229,477.472427 554.98251,475.782708 553.414845,473.982919 L401,299 L401,299 Z" id="Rectangle" stroke="#EC1C22" stroke-width="5" fill="#FFFFFF"></path>
+            <g id="Oval" stroke-linejoin="square">
+                <circle stroke="#FFFFFF" stroke-width="8" fill="#EC1C22" fill-rule="evenodd" cx="400.5" cy="299" r="11"></circle>
+                <circle stroke="#EC1C22" stroke-width="5" cx="400.5" cy="299" r="12.5"></circle>
+            </g>
+            <circle id="Oval" fill="#EC1C22" cx="21" cy="299" r="9"></circle>
+            <g id="Oval" stroke-linejoin="square">
+                <circle stroke="#FFFFFF" stroke-width="14" fill="#EC1C22" fill-rule="evenodd" cx="774.5" cy="299" r="16"></circle>
+                <circle stroke="#EC1C22" stroke-width="9" cx="774.5" cy="299" r="18.5"></circle>
+                <circle stroke="#FFFFFF" stroke-width="7" cx="774.5" cy="299" r="19.5"></circle>
+                <circle stroke="#EC1C22" stroke-width="2" cx="774.5" cy="299" r="22"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

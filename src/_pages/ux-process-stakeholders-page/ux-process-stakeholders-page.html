@@ -4,27 +4,92 @@
 		<div class="center-vertically">
 			<!-- <ul class="process-filters tab-control">
 	            <li class="tab"
-	            :class="{ selected: selectedProductType == 1 }"
-	            @click="selectedProductType = 1; showProcessesForDesigningANewPlatform()">
-	        		New Product
+	            :class="{ selected: selectedDesignFramework == 0 }"
+	            @click="selectedDesignFramework = 0">
+	        		The general purpose
 	        	</li>
 	            <li class="tab"
-	            :class="{ selected: selectedProductType == 2 }"
-	            @click="selectedProductType = 2; showProcessesForExpandingAnExistingPlatform()">
-	        		Established Product
+	            :class="{ selected: selectedDesignFramework == 1 }"
+	            @click="selectedDesignFramework = 1">
+	        		Lean Design
 	        	</li>
 	            <li class="tab"
-	            :class="{ selected: selectedProductType == 3 }"
-	            @click="selectedProductType = 3; showAll()">
-	        		Show All
+	            :class="{ selected: selectedDesignFramework == 2 }"
+	            @click="selectedDesignFramework = 2">
+	        		Design Thinking
 	        	</li>
 	        </ul> -->
 	    </div>
 	</div>
 
-	<div class="process-section intro">
+	<div class="process-section intro header">
 		<div class="section-title">
-			<h3>UX in a nutshell - Just enough work with Lean UX Design</h3>
+			<h2>UX Design in a nutshell</h2>
+		</div>
+		<div class="section-description">
+		
+			<ul class="process-filters tab-control">
+	            <li class="tab"
+	            :class="{ selected: selectedDesignFramework == 0 }"
+	            @click="selectedDesignFramework = 0">
+	        		Overview
+	        	</li>
+	        	<li class="tab"
+	            :class="{ selected: selectedDesignFramework == 1 }"
+	            @click="selectedDesignFramework = 1">
+	        		Design Thinking framework
+	        	</li>
+	            <li class="tab"
+	            :class="{ selected: selectedDesignFramework == 2 }"
+	            @click="selectedDesignFramework = 2">
+	        		Lean Design approach
+	        	</li>
+	        </ul>
+		</div>
+	</div>
+
+	<div v-if="selectedDesignFramework === 0" class="process-section intro">
+		<div class="section-description">
+			<p>UX Design is a process of moving from being presented with a problem to providing the end-user with a solution that meets their actual (as opposed to perceived) needs.</p>
+			<img class="diagram" src="../../assets/images/double-diamond@3x.png" alt="double diamond diagram">
+		</div>
+	</div>
+
+	<div v-else-if="selectedDesignFramework === 1" class="process-section intro">
+		<div class="section-title">
+			<h3>Design Thinking - A human-centered approach to innovation</h3>
+		</div>
+		<div class="section-description">
+			<p>Design Thinking is a range of practices and methods for developing solutions to problems, codified into a series of steps - an articulated design process that involves the human perspective in the problem-solving process. There are many variations of Design Thinking, although they are all geared towards gaining a common understanding through following the cycle below:</p>
+		</div>
+		<div class="section-heading">
+			<h5>How does it work? <span style="visibility: hidden">Discovery</span></h5>
+		</div>
+		<div class="section-stage stage-1">
+			<h6>Step 1 — Empathise</h6>
+			<p>Put yourself under your users' skin and see their perspective on the system. Understand the reasons and goals behind its usage and the emotional response it is causing.</p>
+		</div>
+		<div class="section-stage stage-2">
+			<h6>Step 2 — Define</h6>
+			<p>Define what insight you've gathered into your users' needs and problems. Specify which pain points have to be addressed and outline the priorities.</p>
+		</div>
+		<div class="section-stage stage-3">
+			<h6>Step 3 — Ideate</h6>
+			<p>Once you've identified the right problem to solve, generate a broad set of ideas for innovative solutions with no attempt to judge or evaluate them.</p>
+		</div>
+		<div class="section-stage stage-4">
+			<h6>Step 4 — Prototype</h6>
+			<p>Evaluate your ideas and start shaping up the solutions. Produce prototypes that can be put in front of people to test and critique each concept. </p>
+		</div>
+		<div class="section-stage stage-5">
+			<h6>Step 5 — Test</h6>
+			<p>Test and refine ideas by gathering feedback and iteratively experimenting on the prototypes. Ensure that the solution you're outputting solves all of the users' problems you identified along the way.</p>
+		</div>
+	</div>
+
+	<div v-if="selectedDesignFramework === 2" class="process-section intro">
+		<div class="section-title">
+			<h3>Just enough work with Lean UX Design</h3>
 		</div>
 		<div class="section-description">
 			<p>Lean UX Design is the principle of evaluating a user requirement, devising a solution, and doing just enough work to convey that solution by way of a prototype. This prototype can then be tested and adjusted to ensure that it answers the needs of the user, and can therefore be progressed towards a finished product.</p>
@@ -69,7 +134,7 @@
             <li class="tab"
             :class="{ selected: selectedProductType == 2 }"
             @click="selectedProductType = 2; showProcessesForExpandingAnExistingPlatform()">
-        		Established Product
+        		Existing Product
         	</li>
             <li class="tab"
             :class="{ selected: selectedProductType == 3 }"
