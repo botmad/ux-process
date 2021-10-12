@@ -162,3 +162,50 @@
     }
   }
 }
+
+// _________
+// Resources
+
+.resources {
+
+  .resources-list {
+    margin-top: .75rem;
+
+    .resource {
+      margin-bottom: .5rem;
+      a {
+        display: flex;
+        align-items: center;
+
+        .icon {
+          display: inline-block;
+          flex-basis: calc(var(--body-baseline) * 2);
+          flex-grow: 0;
+          flex-shrink: 0;
+          height: calc(var(--body-baseline) * 2);
+          box-shadow: 0 0 0 1px var(--divider-soft-color) inset;
+          border-radius: 6px;
+          margin-right: .75rem;
+          background-size: 30px 30px;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+        &:hover {
+          .icon {
+            background-color: var(--body-bg-color-hover);
+          }
+        }
+      }
+      &.sketch { .icon { background-image: url("images/sketch@2x.png"); }}
+      &.figma { .icon { background-image: url("images/figma@2x.png"); }}
+      &.docs { .icon { background-image: url("images/docs@2x.png"); }}
+      &.sheets { .icon { background-image: url("images/sheets@2x.png"); }}
+      &.gdrive { .icon { background-image: url("images/gdrive@2x.png"); }}
+      &.word { .icon { background-image: url("images/word@2x.png"); }}
+      &.svg { .icon { background-image: url("images/svg@2x.png"); }}
+      &.word { .icon { background-image: url("images/word@2x.png"); }}
+      &.excel { .icon { background-image: url("images/excel@2x.png"); }}
+    }
+  }
+}

@@ -428,6 +428,10 @@ const ResearchSubSections = [
       { id: 0, url: 'https://www.youtube.com/embed/9HwpR3Njq00', title: "How to Empathy Map",},
       { id: 1, url: 'https://www.youtube.com/embed/ZnkvVEbLFg4', title: "Most Important Skill Required for UX Professionals",},
     ],
+    resources: [
+      { url: 'https://www.youtube.com/embed/9HwpR3Njq00', title: "UI Sketch Kit", type: "sketch"},
+      { url: 'https://www.youtube.com/embed/ZnkvVEbLFg4', title: "Most Important Skill Required for UX Professionals", type: "figma"},
+    ],
     extraClasses: 'ovp mvp new established',
   },
 ]
@@ -863,6 +867,13 @@ const DeliverySubSections = [
     active: false,
     title: 'Hi Fidelity design',
     details: ``,
+    more: `
+      <p></p>
+    `,
+    resources: [
+      { url: 'https://github.com/botmad/UITS-Sketch-UI-Kit', title: "UITS Sketch UI Kit", type: "sketch"},
+      { url: 'https://github.com/botmad/AG-Grid-Sketch-Kit', title: "AG-Grid Sketch Kit", type: "sketch"},
+    ],
     extraClasses: 'ovp mvp new established',
   },
   {

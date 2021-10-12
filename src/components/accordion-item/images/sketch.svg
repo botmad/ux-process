@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>sketch</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sketch">
+            <polygon id="Path" points="0 0 30 0 30 30 0 30"></polygon>
+            <g id="a-link" transform="translate(0.000000, 10.627718)" fill="#EA6C00" fill-rule="nonzero">
+                <polygon id="a" points="6.07526199 0 14.9987298 17.3722816 0 0"></polygon>
+            </g>
+            <g id="b-link" transform="translate(22.500635, 19.313859) scale(-1, 1) translate(-22.500635, -19.313859) translate(15.001270, 10.627718)" fill="#EA6C00" fill-rule="nonzero">
+                <polygon id="b" points="6.07526199 0 14.9987298 17.3722816 0 0"></polygon>
+            </g>
+            <g id="c-link" transform="translate(6.074944, 10.627718)" fill="#FDAD00" fill-rule="nonzero">
+                <polygon id="c" points="0 0 17.8469355 0 8.92346777 17.3722816"></polygon>
+            </g>
+            <g id="d-link" transform="translate(6.074944, 1.000000)" fill="#FDD231" fill-rule="nonzero">
+                <polygon id="d" points="8.92346777 0 0.469672912 0.888829097 0 9.62771844"></polygon>
+            </g>
+            <g id="e-link" transform="translate(19.460146, 5.813859) scale(-1, 1) translate(-19.460146, -5.813859) translate(14.998412, 1.000000)" fill="#FDD231" fill-rule="nonzero">
+                <polygon id="e" points="8.92346777 0 0.469672912 0.888829097 0 9.62771844"></polygon>
+            </g>
+            <g id="f-link" transform="translate(26.727533, 6.258274) scale(-1, 1) translate(-26.727533, -6.258274) translate(23.455065, 1.888829)" fill="#FDAD00" fill-rule="nonzero">
+                <polygon id="f" points="0 8.73888934 6.5449349 0 6.07526199 8.73888934"></polygon>
+            </g>
+            <g id="g-link" transform="translate(0.000000, 1.888829)" fill="#FDAD00" fill-rule="nonzero">
+                <polygon id="g" points="0 8.73888934 6.5449349 0 6.07526199 8.73888934"></polygon>
+            </g>
+            <g id="h-link" transform="translate(6.074944, 1.000000)" fill="#FEEEB7" fill-rule="nonzero">
+                <polygon id="h" points="8.92346777 0 0 9.62771844 17.8469355 9.62771844"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,10 +1,12 @@
 <div :id="groupId + '-' + item.id" class="accordion-item" :class="{'is-active': item.active}">
+
 	<dt class="accordion-item-title">
 		<button @click="toggle" class="accordion-item-trigger">
 			<h6 class="accordion-item-title-text">{{item.title}}</h6>
 			<span class="accordion-item-trigger-icon"></span>
 		</button>
 	</dt>
+
 	<transition
 		name="accordion-item"
 		@enter="startTransition"
@@ -25,10 +27,16 @@
 				</button>
 			</div>
 
+			<!-- EXPANDED SECTION -->
+
 			<div class="accordion-item-details-inner more" :class="{ expanded: moreContentExpanded == true }">
+
+				<!-- MORE INFO -->
 
 				<div v-html="item.more">
 				</div>
+
+				<!-- EXAMPLE -->
 
 				<div v-if='item.exampleImages' class="example-images">
 					<h6>Example</h6>
@@ -39,9 +47,12 @@
 					<hr>
 				</div>
 
+				<!-- ARTICLES -->
+
 				<div v-if='item.articles' v-html="item.articles">
 				</div>
 
+				<!-- VIDEOS -->
 
 				<div v-if='item.videoLinks' class="videos">
 					<h6>Short Videos</h6>
@@ -61,6 +72,23 @@
 						</ul>
 					</div>
 				</div>
+
+				<!-- RESOURCES -->
+
+				<div v-if='item.resources' class="resources">
+					<h6>Templates & Resources</h6>						
+					<ul class="resources-list unstyled">
+						<li
+						v-for="item in item.resources"
+						class="resource"
+						:class='item.type'>
+							<a
+							target='new'
+							:href="item.url"><span class="icon"></span>{{item.title}}</a>
+						</li>
+					</ul>
+				</div>
+
 			</div>
 		</dd>
 	</transition>
