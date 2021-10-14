@@ -404,8 +404,8 @@ const ResearchSubSections = [
       <p>After concluding user interviews and/or another type of user research to illustrate the current state of affairs within a system.</p>
       <h6>What are you getting out of this?</h6>
       <ul>
-        <li>Empathy is a critical part of human-centred design.</li>
-        <li>The empathy map visualises the users wants, needs, goals and frustrations to the rest of the team (and stakeholders), democratising the human-centric design mindset.</li>
+        <li>Empathy is a critical part of human-centred design. There is no UX without the 'U'</li>
+        <li>The empathy map visualises the users wants, needs, goals and frustrations to the rest of the team (and stakeholders), making everyone understand the big picture.</li>
         <li>The mapping process reveals holes in existing user data.</li>
         <li>Callouts of key insights from research in a single-page infographic.</li>
         <li>Fast and inexpensive</li>
@@ -431,6 +431,39 @@ const ResearchSubSections = [
     resources: [
       { url: 'https://www.youtube.com/embed/9HwpR3Njq00', title: "UI Sketch Kit", type: "sketch"},
       { url: 'https://www.youtube.com/embed/ZnkvVEbLFg4', title: "Most Important Skill Required for UX Professionals", type: "figma"},
+    ],
+    extraClasses: 'ovp mvp new established',
+  },
+  {
+    id: 8,
+    active: false,
+    title: 'Service blueprint',
+    details: `
+      <h6>What is it?</h6>
+      <p>An overview of the organisational processes showing how different departments relate to delivering a service to the user. Service Blueprint shows what happens behind the scene as users interact with digital systems.</p>
+      <h6>When to do it?</h6>
+      <p>Before conceptualising the solution, after interviewing the users and stakeholders, ideally following the field studies.</p>
+      <h6>What are you getting out of this?</h6>
+      <ul>
+        <li>Understanding how necessary factors cooperate to deliver the user experience.</li>
+        <li>Exposes opportunities to improve interoperability that can reduce the cost of operations.</li>
+      </ul>    `,
+    more: `
+      <p>Service blueprints visualize organizational processes in order to optimize how a business delivers a user experience. It is a diagram that shows the relationships between different service components — people, departments, props (physical or digital evidence), and processes — that are directly tied to touchpoints in a specific customer journey.</p>
+      <h6>Articles</h6>
+      <div class="links">
+        <div class="links-section articles">
+          <ul>
+            <li><a href="https://www.nngroup.com/articles/service-blueprints-definition/">Service Blueprints: Definition</a></li>
+          </ul>
+        </div>
+      </div>
+    `,
+    videoLinks: [
+      { id: 0, url: 'https://www.youtube.com/embed/z-BfM-fsBEY', title: "The 5 Steps to Service Blueprinting",},
+      { id: 1, url: 'https://www.youtube.com/embed/bCRBaD2_dCQ', title: "4 Key Components of Service Blueprints",},
+      { id: 2, url: 'https://www.youtube.com/embed/6FdFIYKxeDM', title: "When and Why UX Practitioners Use Service Blueprintsg",},
+      { id: 3, url: 'https://www.youtube.com/embed/ubKp3vRJIJg', title: "Service Blueprinting FAQ",},
     ],
     extraClasses: 'ovp mvp new established',
   },
@@ -487,11 +520,15 @@ const DefinitionSubSections = [
     title: 'Context Scenario',
     details: `
       <h6>What is it?</h6>
-      <p></p>
+      <p>A sequential, high-level overview of the key actions a persona will take to achieve goals enabled by the product. Scenario mapping is a collaborative activity, usually conducted by sticking Post-it Notes on a wall to visualise all important factors that may affect the user experience.</p>
       <h6>When to do it?</h6>
-      <p></p>
+      <p>After spending enough time with the users to understand how they perceive their own needs and pain points, if the system exists already, user testing should be concluded before coming up with the context scenario.</p>
       <h6>What are you getting out of this?</h6>
-      <p></p>
+      <ul>
+        <li>We are condensing all research findings into a graspable narrative behind the product.</li>
+        <li>Laying down the logic in a step by step fashion allows others to understand, analyse and critique the approach</li>
+        <li>The team can now make quick prototypes to test the idea(s).</li>
+      </ul>
     `,
     more: `
       <p>Personas driven contextual story map. Context scenario focuses on key actions that a persona will take while using the product. Its purpose is to map out the big picture rather than describing interactions in detail. Context scenarios should be broad and relatively shallow in scope. The focus should be on the behaviors of the user and the system.</p>
@@ -513,56 +550,32 @@ const DefinitionSubSections = [
     videoLinks: [
       { id: 0, url: 'https://www.youtube.com/embed/dmlFRCZI9gQ', title: "Scenario Mapping for Design Exploration",},
     ],
+    resources: [
+      { url: 'https://miro.com/', title: "Miro", type: "web"},
+    ],
     extraClasses: 'ovp mvp new',
   },
   {
     id: 2,
     active: false,
-    title: 'Service blueprint',
-    details: `
-      <h6>What is it?</h6>
-      <p></p>
-      <h6>When to do it?</h6>
-      <p></p>
-      <h6>What are you getting out of this?</h6>
-      <p></p>
-    `,
-    more: `
-      <p>Service blueprints visualize organizational processes in order to optimize how a business delivers a user experience. It is a diagram that shows the relationships between different service components — people, props (physical or digital evidence), and processes — that are directly tied to touchpoints in a specific customer journey.</p>
-      <h6>Articles</h6>
-      <div class="links">
-        <div class="links-section articles">
-          <ul>
-            <li><a href="https://www.nngroup.com/articles/service-blueprints-definition/">Service Blueprints: Definition</a></li>
-          </ul>
-        </div>
-      </div>
-    `,
-    videoLinks: [
-      { id: 0, url: 'https://www.youtube.com/embed/z-BfM-fsBEY', title: "The 5 Steps to Service Blueprinting",},
-      { id: 1, url: 'https://www.youtube.com/embed/bCRBaD2_dCQ', title: "4 Key Components of Service Blueprints",},
-      { id: 2, url: 'https://www.youtube.com/embed/6FdFIYKxeDM', title: "When and Why UX Practitioners Use Service Blueprintsg",},
-      { id: 3, url: 'https://www.youtube.com/embed/ubKp3vRJIJg', title: "Service Blueprinting FAQ",},
-    ],
-    extraClasses: 'ovp mvp new established',
-  },
-  {
-    id: 3,
-    active: false,
     title: 'User Journey Mapping',
     details: `
       <h6>What is it?</h6>
-      <p></p>
+      <p>A mid-level overview of the user's interaction with the system, delivered in a timeline fashion, ideally supplemented with user thoughts and emotions apprehended during the empathy mapping stage.</p>
       <h6>When to do it?</h6>
-      <p></p>
+      <p>After concluding the qualitative user research analysis and stakeholder review of the context scenario.</p>
       <h6>What are you getting out of this?</h6>
-      <p></p>
+      <ul>
+        <li>A fleshed-out overview of product narrative that compiles all research findings into a clear interaction outline.</li>
+        <li>Easy to understand feature concept - ready to be reviewed by people from multiple disciplines, allowing them to identify opportunities and ambiguities.</li>
+        <li>Minimise the risk of moving forward with an underdeveloped logic.</li>
+      </ul>
     `,
     exampleImages: [
       { url: 'https://media.nngroup.com/media/editor/2020/07/30/nng-cjm.png', source: "https://www.nngroup.com/articles/journey-mapping-101/",},
     ],
     more: `
-      <p>A journey map is a visualisation of the process that a person goes through in order to accomplish a goal. In its most basic form it's an actions timeline that is often is fleshed out with user thoughts and emotions in order to create a narrative.</p>
+      <p>A journey map is a personas driven visualisation of the process that a user goes through in order to accomplish a goal. In its most basic form it's an actions timeline that is often fleshed out with user thoughts and emotions in order to create a use case narrative.</p>
     `,
     articles: `
       <h6>Articles</h6>
@@ -582,20 +595,25 @@ const DefinitionSubSections = [
     extraClasses: 'ovp mvp new established',
   },
   {
-    id: 4,
+    id: 3,
     active: false,
     title: 'Card Sorting',
     details: `
       <h6>What is it?</h6>
-      <p></p>
+      <p>An exercise that is performed with the users, in which they are asked to categorise and group items that represent future content into patterns that make the most sense to them. </p>
       <h6>When to do it?</h6>
-      <p></p>
+      <p>After conducting enough user research to understand the logical components needed to build or expand the system; before coming up with Information Architecture and wireframes. </p>
       <h6>What are you getting out of this?</h6>
-      <p></p>
+      <ul>
+        <li>It reveals a grouping and categorisation structure that makes the most sense to the majority of the target audience.</li>
+        <li>Reduce navigation time, along with user frustration.</li>
+        <li>Reduce drop out ratio (in case of a commercial product)</li>
+        <li>Expert bias is one of the main factors that slow down usage efficiency</li>
+      </ul>
     `,
     more: `
-      <p>Card sorting is a research tool used to assess or determine the way information is grouped, labelled, and organised within a site by allowing users to sort content topics into categories that make sense to them.</p>
-      <p>Too often, content is structured based on what makes sense to the company, not to the users.</p>
+      <p>Card sorting is a user research technique used to assess and determine the best way information is grouped, labelled, and organised within a site by allowing users to sort content topics into categories that make sense to them.</p>
+      <p>Too often, content is structured based on what makes sense to the company or a designer, but not to the users.</p>
       <div class="links">
         <div class="links-section articles">
           <h6>Articles</h6>
@@ -613,10 +631,14 @@ const DefinitionSubSections = [
       { id: 2, url: 'https://www.youtube.com/embed/ax0_rqC4v44', title: "How to Avoid Bias in Card Sorting",},
       { id: 3, url: 'https://www.youtube.com/embed/P0WDO76300Q', title: "Tree Testing to Evaluate Information Architecture Categories",},
     ],
+    resources: [
+      { url: 'https://trello.com/', title: "Trello (for remote card sorting)", type: "web"},
+      { url: 'https://miro.com/', title: "Miro (for remote card sorting)", type: "web"},
+    ],
     extraClasses: 'ovp mvp new',
   },
   {
-    id: 5,
+    id: 4,
     active: false,
     title: 'Key Path Scenario',
     details: `
@@ -646,7 +668,7 @@ const DefinitionSubSections = [
     extraClasses: 'ovp mvp new established',
   },
   {
-    id: 6,
+    id: 5,
     active: false,
     title: 'Information Architecture',
     details: `
