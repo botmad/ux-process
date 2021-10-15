@@ -126,7 +126,7 @@ const DiscoverySubSections = [
     title: 'Concept Statement',
     details: `
       <h6>What is it?</h6>
-      <p>A concept statement is a concise summary of the product vision.</p>
+      <p>A concept statement is a concise summary of the product vision and its general purpose.</p>
       <h6>When to do it?</h6>
       <p>After underestanding the essence of the problem your client is facing. The concept statement may change upon research findings so it is important to revise it whenever necessary.</p>
       <h6>What are you getting out of this?</h6>
@@ -520,14 +520,14 @@ const DefinitionSubSections = [
     title: 'Context Scenario',
     details: `
       <h6>What is it?</h6>
-      <p>A sequential, high-level overview of the key actions a persona will take to achieve goals enabled by the product. Scenario mapping is a collaborative activity, usually conducted by sticking Post-it Notes on a wall to visualise all important factors that may affect the user experience.</p>
+      <p>What is it? A textual, high-level overview of the key actions a persona will take to achieve goals facilitated by the system.</p>
+      <p>Defining context scenario starts as a collaborative <strong>scenario mapping</strong>, usually conducted by sticking Post-it notes on a wall to visualise and discuss factors that will lay fundaments for the user journey.</p>
       <h6>When to do it?</h6>
-      <p>After spending enough time with the users to understand how they perceive their own needs and pain points, if the system exists already, user testing should be concluded before coming up with the context scenario.</p>
+      <p>After spending enough time with the users to understand how they perceive their own needs and frustrations.</p>
       <h6>What are you getting out of this?</h6>
       <ul>
         <li>We are condensing all research findings into a graspable narrative behind the product.</li>
-        <li>Laying down the logic in a step by step fashion allows others to understand, analyse and critique the approach</li>
-        <li>The team can now make quick prototypes to test the idea(s).</li>
+        <li>Laying down the logic in a step by step fashion allows other disciplines to verify, analyse and improve the approach</li>
       </ul>
     `,
     more: `
@@ -563,11 +563,11 @@ const DefinitionSubSections = [
       <h6>What is it?</h6>
       <p>A mid-level overview of the user's interaction with the system, delivered in a timeline fashion, ideally supplemented with user thoughts and emotions apprehended during the empathy mapping stage.</p>
       <h6>When to do it?</h6>
-      <p>After concluding the qualitative user research analysis and stakeholder review of the context scenario.</p>
+      <p>After concluding the qualitative user research, empathy mapping and stakeholder review of the context scenario.</p>
       <h6>What are you getting out of this?</h6>
       <ul>
-        <li>A fleshed-out overview of product narrative that compiles all research findings into a clear interaction outline.</li>
-        <li>Easy to understand feature concept - ready to be reviewed by people from multiple disciplines, allowing them to identify opportunities and ambiguities.</li>
+        <li>A summary of product narrative that compiles research findings into a clear interaction outline.</li>
+        <li>Highlights problematic stages in the journey, addressing which will give the product a competitive edge.</li>
         <li>Minimise the risk of moving forward with an underdeveloped logic.</li>
       </ul>
     `,
@@ -597,10 +597,45 @@ const DefinitionSubSections = [
   {
     id: 3,
     active: false,
+    title: 'Key Path Scenario',
+    details: `
+      <h6>What is it?</h6>
+      <p>An in-depth user journey map that specifies every interaction element and determines what data needs to be inputted by a persona to achieve their goal. It doesn't address any side journeys nor describes what happens when things go wrong.</p>
+      <h6>When to do it?</h6>
+      <p>After reviewing and refining the context scenario and user journey map, recognising all revealed opportunities and potential pain points.</p>
+      <h6>What are you getting out of this?</h6>
+      <ul>
+        <li>A detailed interaction blueprint for the so-called "happy path".</li>
+        <li>Stakeholders and experts can verify whether no data points are missing, reducing the number of future reviews.</li>
+        <li>The technical team can assess the feasibility and cost of implementing backend logic.</li>
+        <li>The design team can start making simple prototypes to test the proof of concept.</li>        
+      </ul>
+    `,
+    more: `
+      <p>Key Path Scenario is an In-depth user journey map that describes the persona’s interaction with the product. The focus is on describing how the persona will achieve the task by interacting with various interface elements of the product. This phase is focused on devising solutions and delivering high-level specifications for product’s fundamental forms and behaviours.</p>
+      <ul>
+        <li>Begin with context scenario and start grouping functionalities based on the task flow outlined in the context scenario.</li>
+        <li>Draw a rough wireframe for each view and its component elements.</li>
+        <li>Identify the major interaction elements for each view.</li>
+        <li>Define relationships between the views and keep focus on the persona’s goal.</li>
+        <li>Trim any unnecessary tasks and actions that deviate from the goal.</li>
+        <li>Iterate the process to refine the flow and interaction elements.</li>
+      </ul>
+
+      <h6>Articles</h6>
+      <ul>
+        <li><a href="https://www.slideshare.net/mobile/ebacon/scenarios-for-design-interaction10-workshop-by-elizabeth-bacon">Scenarios For Design: Interaction10 Workshop by Elizabeth Bacon</a></li>
+      </ul>
+    `,
+    extraClasses: 'ovp mvp new established',
+  },
+  {
+    id: 4,
+    active: false,
     title: 'Card Sorting',
     details: `
       <h6>What is it?</h6>
-      <p>An exercise that is performed with the users, in which they are asked to categorise and group items that represent future content into patterns that make the most sense to them. </p>
+      <p>An exercise that is performed with the users, in which they categorise and group items that represent future content into patterns that make the most sense to them. </p>
       <h6>When to do it?</h6>
       <p>After conducting enough user research to understand the logical components needed to build or expand the system; before coming up with Information Architecture and wireframes. </p>
       <h6>What are you getting out of this?</h6>
@@ -638,46 +673,24 @@ const DefinitionSubSections = [
     extraClasses: 'ovp mvp new',
   },
   {
-    id: 4,
-    active: false,
-    title: 'Key Path Scenario',
-    details: `
-      <h6>What is it?</h6>
-      <p></p>
-      <h6>When to do it?</h6>
-      <p></p>
-      <h6>What are you getting out of this?</h6>
-      <p></p>
-    `,
-    more: `
-      <p>Key Path Scenario is an In-depth user journey map that describes the persona’s interaction with the product. The focus is on describing how the persona will achieve the task by interacting with various interface elements of the product. This phase is focused on devising solutions and delivering high-level specifications for product’s fundamental forms and behaviours.</p>
-      <ul>
-        <li>Begin with context scenario and start grouping functionalities based on the task flow outlined in the context scenario.</li>
-        <li>Draw a rough wireframe for each view and its component elements.</li>
-        <li>Identify the major interaction elements for each view.</li>
-        <li>Define relationships between the views and keep focus on the persona’s goal.</li>
-        <li>Trim any unnecessary tasks and actions that deviate from the goal.</li>
-        <li>Iterate the process to refine the flow and interaction elements.</li>
-      </ul>
-
-      <h6>Articles</h6>
-      <ul>
-        <li><a href="https://www.slideshare.net/mobile/ebacon/scenarios-for-design-interaction10-workshop-by-elizabeth-bacon">Scenarios For Design: Interaction10 Workshop by Elizabeth Bacon</a></li>
-      </ul>
-    `,
-    extraClasses: 'ovp mvp new established',
-  },
-  {
     id: 5,
     active: false,
     title: 'Information Architecture',
     details: `
       <h6>What is it?</h6>
-      <p></p>
+      <p>A low-level diagram of every path accessible through the system, including every Call to Action and input field, outputted information variations, key and side journeys, empty and error states, navigation structure, etc.</p>
+      <p>The Information Architecture is a detailed blueprint for the entire system logic.</p>
       <h6>When to do it?</h6>
-      <p></p>
+      <p>After refining and signing off the Key Path Scenario and obtaining <span title="Taxonomy is the practice and science of categorization or classification">taxonomy</span> insight through the Card Sorting.</p>
       <h6>What are you getting out of this?</h6>
-      <p></p>
+      <ul>
+        <li>Signing off the IA clarifies and speeds up the visual design process.</li>
+        <li>Eliminate the possibility of misinterpretation by any team member working on the project further down the line.</li>
+        <li>Reduce the number of iterations and stakeholder reviews in the wireframing stage.</li>
+        <li>The technical team can estimate the backend requirements upon the IA sign-off.</li>
+        <li>The technical team can start working on the backend instead of waiting to conclude the visual design stage - IA translates into a database schema and specifies what API endpoints will be needed to operate the system.</li>
+      </ul>
+      <p>⚠️ The IA will quickly grow large in size. It is a good idea to split it into multiple parts, otherwise, it will be overwhelming and hard to read.</p>
     `,
     more: `
       <p>Information architecture (IA) is much more than just a sitemap to show what page leads where. It is a visual representation of the product’s infrastructure, features, and hierarchy. The level of detail is up to the designer and team's needs, so IA may also include precisely mapped flows for every interaction and behaviour inside the application.</p>
